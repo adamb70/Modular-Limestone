@@ -1,4 +1,4 @@
-Running from: C:\Users\Alex\AppData\Local\Temp\tmpa2h_lgbu 
+Running from: C:\Users\Alex\AppData\Local\Temp\tmp21ndf7g4 
 Command: D:\Games\Steam\steamapps\common\MedievalEngineersModSDK\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:PlasterArchSmallHalf_Large_Constr1.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
@@ -8,6 +8,6 @@ C:\Program Files (x86)\Steam\steamapps\common\MedievalEngineers\Content\Textures
     Texture NormalGlossTexture does not exists!
 C:\Program Files (x86)\Steam\steamapps\common\MedievalEngineers\Content\Textures\Models\Cubes\block_sheet_add.dds: WARNING: 
     Texture AddMapsTexture does not exists!
-C:\Users\Alex\AppData\Local\Temp\tmpa2h_lgbu\Content\PlasterArchSmallHalf_Large_Constr1.fbx: Processed
+C:\Users\Alex\AppData\Local\Temp\tmp21ndf7g4\Content\PlasterArchSmallHalf_Large_Constr1.fbx: Processed
 : 
     : Finished in 0.2s

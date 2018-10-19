@@ -1,7 +1,7 @@
-Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Alex\AppData\Local\Temp\space_engineers_lqmm7wbf.hko -p C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\Modular Limestone\Models\Cubes\Large\PlasterArchSmallFull_Large.hkt C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\Modular Limestone\Models\Cubes\Large\PlasterArchSmallFull_Large.hkt 
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Alex\AppData\Local\Temp\space_engineers_ldrwa4z0.hko -p C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\Modular Limestone\Models\Cubes\Large\PlasterArchSmallFull_Large.hkt C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\Modular Limestone\Models\Cubes\Large\PlasterArchSmallFull_Large.hkt 
 [ Processing All Configurations... ]
     
-    ========== Started: Fri Oct 19 14:01:58 2018, Configuration: default ==========
+    ========== Started: Fri Oct 19 14:53:52 2018, Configuration: default ==========
     
     [ [Physics 2012] Create Rigid Bodies Filter ]
         [0xabbabfd2] Warning : 'Collision.002' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
