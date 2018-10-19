@@ -49,7 +49,7 @@
     <BlockVariants>
       <BlockVariant>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>PlasterArchMirror</SubtypeId>
+        <SubtypeId>PlasterArchLargeFullMirror</SubtypeId>
       </BlockVariant>
     </BlockVariants>
     <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>

@@ -13,7 +13,7 @@
     <ModelOffset x="0" y="0" z="0" />
     <Model>Models\Cubes\Large\PlasterArchSmallFull_Large.mwm</Model>
     <BuildProgressModels>
-      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterArchSmallFull_Large_Constr_1.mwm">
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterArchSmallFull_Large_Constr1.mwm">
         <MountPointOverrides>
           <MountPoint Side="Top" Enabled="false" />
         </MountPointOverrides>
@@ -78,7 +78,7 @@
     <ModelOffset x="0" y="0" z="0" />
     <Model>Models\Cubes\Large\PlasterArchSmallFullMirror_Large.mwm</Model>
     <BuildProgressModels>
-      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterArchSmallFullMirror_Large_Constr_1.mwm">
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterArchSmallFullMirror_Large_Constr1.mwm">
         <MountPointOverrides>
           <MountPoint Side="Top" Enabled="false" />
         </MountPointOverrides>
