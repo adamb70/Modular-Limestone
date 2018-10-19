@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-
-  <!--Stone Arch Walls-->
+  <!--Edge Arches-->
   <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
     <Id Type="CubeBlock" Subtype="PlasterArchLargeHalf" />
     <DisplayName>Large Half-Width Plaster Arch Right</DisplayName>
@@ -25,9 +24,11 @@
     <PhysicalMaterial>Stone</PhysicalMaterial>
     <Components>
       <Component Tag="ScrapWood" Count="1" />
-      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="3" />
+      <Component Tag="StoneSmall" Count ="3" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="1" />
     </Components>
-    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <CriticalComponent Tag="StoneSmall" Index="0" />
     <MaxIntegrity>2000</MaxIntegrity>
     <BuildTimeSeconds>6</BuildTimeSeconds>
     <MountPoints>
@@ -87,9 +88,11 @@
     <PhysicalMaterial>Stone</PhysicalMaterial>
     <Components>
       <Component Tag="ScrapWood" Count="1" />
-      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="3" />
+      <Component Tag="StoneSmall" Count ="3" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="1" />
     </Components>
-    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <CriticalComponent Tag="StoneSmall" Index="0" />
     <MaxIntegrity>2000</MaxIntegrity>
     <BuildTimeSeconds>6</BuildTimeSeconds>
     <MountPoints>

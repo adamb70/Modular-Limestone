@@ -9,6 +9,9 @@
 	<Size x="1" y="1" z="1" />
 	<ModelOffset x="0" y="0" z="0" />
 	<Model>Models\Cubes\Large\PlasterArchSmallHalf_Large.mwm</Model>
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PlasterArchSmallHalf_Large_Constr1.mwm" />
+	</BuildProgressModels>
 	<MountPoints>
 		<MountPoint Side="Top" StartX="0.00" StartY="0.80" EndX="0.50" EndY="1.00" />
 		<MountPoint Side="Front" StartX="0.50" StartY="0.50" EndX="1.00" EndY="1.00" />

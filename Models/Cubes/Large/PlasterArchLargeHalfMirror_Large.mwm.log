@@ -1,4 +1,4 @@
-Running from: C:\Users\Alex\AppData\Local\Temp\tmpjd0z8x52 
+Running from: C:\Users\Alex\AppData\Local\Temp\tmppvqipnqq 
 Command: D:\Games\Steam\steamapps\common\MedievalEngineersModSDK\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:PlasterArchLargeHalfMirror_Large.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
@@ -8,6 +8,6 @@ Textures\Models\Cubes\TexturesCom_Stucco2_2x2_1024_ng.DDS: WARNING:
     Texture NormalGlossTexture does not exists!
 Textures\Models\Cubes\TexturesCom_Stucco2_2x2_1024_add.DDS: WARNING: 
     Texture AddMapsTexture does not exists!
-C:\Users\Alex\AppData\Local\Temp\tmpjd0z8x52\Content\PlasterArchLargeHalfMirror_Large.fbx: Processed
+C:\Users\Alex\AppData\Local\Temp\tmppvqipnqq\Content\PlasterArchLargeHalfMirror_Large.fbx: Processed
 : 
     : Finished in 0.2s

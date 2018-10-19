@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--Edge Arches-->
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterArchSmallFull" />
+    <DisplayName>Small Plaster Arch Right</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterArchRight.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterArchSmallFull_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterArchSmallFull_Large_Constr_1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Tag="StoneSmall" Count ="2" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="1" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <MaxIntegrity>2000</MaxIntegrity>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <MountPoints>
+      <MountPoint Side="Right" StartX="0.80" StartY="0.58" EndX="1.00" EndY="0.61" />
+      <MountPoint Side="Front" StartX="0.50" StartY="0.50" EndX="1.00" EndY="1.00" />
+      <MountPoint Side="Right" StartX="0.80" StartY="0.80" EndX="1.00" EndY="1.00" />
+      <MountPoint Side="Top" StartX="0.00" StartY="0.80" EndX="0.50" EndY="1.00" />
+      <MountPoint Side="Left" StartX="0.00" StartY="0.50" EndX="0.20" EndY="1.00" />
+      <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.20" EndY="0.20" />
+      <MountPoint Side="Right" StartX="0.80" StartY="0.50" EndX="1.00" EndY="0.54" />
+      <MountPoint Side="Right" StartX="0.80" StartY="0.54" EndX="1.00" EndY="0.58" />
+      <MountPoint Side="Back" StartX="0.00" StartY="0.50" EndX="0.50" EndY="1.00" />
+      <MountPoint Side="Right" StartX="0.80" StartY="0.61" EndX="1.00" EndY="0.65" />
+      <MountPoint Side="Right" StartX="0.80" StartY="0.65" EndX="1.00" EndY="0.68" />
+      <MountPoint Side="Right" StartX="0.80" StartY="0.68" EndX="1.00" EndY="0.71" />
+      <MountPoint Side="Bottom" StartX="0.29" StartY="0.00" EndX="0.32" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.32" StartY="0.00" EndX="0.35" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.35" StartY="0.00" EndX="0.39" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.39" StartY="0.00" EndX="0.42" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.42" StartY="0.00" EndX="0.46" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.46" StartY="0.00" EndX="0.50" EndY="0.20" />
+	  </MountPoints>
+	  <Direction>Horizontal</Direction>
+    <CompoundTemplates>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <BuildType>Wall</BuildType>
+    <BlockGroupName>PlasterArch</BlockGroupName>
+    <BlockVariants>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterArchSmallFullMirror</SubtypeId>
+      </BlockVariant>
+    </BlockVariants>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <UseModelIntersection>true</UseModelIntersection>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterArchSmallFullMirror" />
+    <DisplayName>Small Plaster Arch Left</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterArchLeft.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterArchSmallFullMirror_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterArchSmallFullMirror_Large_Constr_1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Tag="StoneSmall" Count ="2" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="1" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <MaxIntegrity>2000</MaxIntegrity>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <MountPoints>
+      <MountPoint Side="Left" StartX="0.00" StartY="0.58" EndX="0.20" EndY="0.61" />
+      <MountPoint Side="Back" StartX="0.50" StartY="0.50" EndX="1.00" EndY="1.00" />
+      <MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="0.20" EndY="1.00" />
+      <MountPoint Side="Top" StartX="0.50" StartY="0.80" EndX="1.00" EndY="1.00" />
+      <MountPoint Side="Right" StartX="0.80" StartY="0.50" EndX="1.00" EndY="1.00" />
+      <MountPoint Side="Bottom" StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.20" />
+      <MountPoint Side="Left" StartX="0.00" StartY="0.50" EndX="0.20" EndY="0.54" />
+      <MountPoint Side="Left" StartX="0.00" StartY="0.54" EndX="0.20" EndY="0.58" />
+      <MountPoint Side="Front" StartX="0.00" StartY="0.50" EndX="0.50" EndY="1.00" />
+      <MountPoint Side="Left" StartX="0.00" StartY="0.61" EndX="0.20" EndY="0.65" />
+      <MountPoint Side="Left" StartX="0.00" StartY="0.65" EndX="0.20" EndY="0.68" />
+      <MountPoint Side="Left" StartX="0.00" StartY="0.68" EndX="0.20" EndY="0.71" />
+      <MountPoint Side="Bottom" StartX="0.68" StartY="0.00" EndX="0.71" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.65" StartY="0.00" EndX="0.68" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.61" StartY="0.00" EndX="0.65" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.58" StartY="0.00" EndX="0.61" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.54" StartY="0.00" EndX="0.58" EndY="0.20" />
+      <MountPoint Side="Bottom" StartX="0.50" StartY="0.00" EndX="0.54" EndY="0.20" />
+  	</MountPoints>
+    <Direction>Horizontal</Direction>
+    <CompoundTemplates>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <BuildType>Wall</BuildType>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <UseModelIntersection>true</UseModelIntersection>
+    <GuiVisible>false</GuiVisible>
+  </Definition>
+
+</Definitions>
