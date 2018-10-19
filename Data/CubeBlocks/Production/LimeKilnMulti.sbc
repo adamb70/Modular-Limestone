@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<Definition xsi:type="MyObjectBuilder_MultiBlockDefinition">
+    <Id Type="MultiBlockDefinition" Subtype="LimeKiln" />
+    <BlockDefinitions>
+      <BlockDefinition>
+        <Id Type="CubeBlock" Subtype="LimeKiln" />
+        <Position x="0" y="0" z="0" />
+        <Orientation Forward="Forward" Up="Up" />
+      </BlockDefinition>
+      <BlockDefinition>
+        <Id Type="CubeBlock" Subtype="LimeKilnTrough" />
+        <Position x="0" y="0" z="-1" />
+        <Orientation Forward="Forward" Up="Up" />
+      </BlockDefinition>
+    </BlockDefinitions>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="LimeKilnMulti" />
+    <BlockPairName>LimeKilnMulti</BlockPairName>
+    <DisplayName>Lime Kiln</DisplayName>
+    <public>false</public>
+    <GuiVisible>false</GuiVisible>
+    <Description>A kiln exclusively used for the production of quicklime from limestone,
+    as well as a water filled trough for the crafting of lime mortar and lime plaster.</Description>
+    <Icon>Textures\GUI\Icons\Production\LimeKiln.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="2" z="2" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\LimeKilnMulti_Large.mwm</Model>
+    <!--
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\LimeKiln_Large_Construction_1.mwm">
+	  <Model BuildPercentUpperBound="0.75" File="Models\Cubes\Large\LimeKiln_Large_Construction_2.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    -->
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+    </Components>
+    <CriticalComponent Tag="ScrapWood" Index="0" />
+    <MaxIntegrity>1000</MaxIntegrity>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>20</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <AvailableInSurvival>true</AvailableInSurvival>
+    <UseModelIntersection>true</UseModelIntersection>
+    <CompoundTemplates>
+			<Template>Universal</Template>
+    </CompoundTemplates>
+    <BuildType>Cube</BuildType>
+    <MultiBlock>LimeKiln</MultiBlock>
+
+    <VoxelPlacement>
+      <StaticMode>
+        <PlacementMode>Volumetric</PlacementMode>
+        <MaxAllowed>0.2</MaxAllowed>
+        <MinAllowed>0.1</MinAllowed>
+      </StaticMode>
+      <DynamicMode>
+        <PlacementMode>Volumetric</PlacementMode>
+        <MaxAllowed>0.2</MaxAllowed>
+        <MinAllowed>0.1</MinAllowed>
+      </DynamicMode>
+    </VoxelPlacement>
+
+  </Definition>
+
+</Definitions>

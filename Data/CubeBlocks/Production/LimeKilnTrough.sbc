@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="LimeKilnTrough" />
+    <BlockPairName>LimeKilnTrough</BlockPairName>
+    <DisplayName>Lime Kiln Trough</DisplayName>
+    <Public>true</Public>
+    <GuiVisible>true</GuiVisible>
+    <Icon>Textures\GUI\Icons\Production\LimeKiln.dds</Icon>
+    <CubeSize>Small</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="2" y="2" z="6" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\Trough_Small.mwm</Model>
+    <!--
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\LimeKiln_Large_Construction_1.mwm">
+	  <Model BuildPercentUpperBound="0.75" File="Models\Cubes\Large\LimeKiln_Large_Construction_2.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    -->
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count="5" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <Mass>100</Mass>
+    <Volume>100</Volume>
+    <MaxIntegrity>500</MaxIntegrity>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>5</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <AvailableInSurvival>true</AvailableInSurvival>
+
+    <MountPoints>
+      <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+    </MountPoints>
+
+    <VoxelPlacement>
+      <StaticMode>
+        <PlacementMode>Both</PlacementMode>
+        <MaxAllowed>1</MaxAllowed>
+        <MinAllowed>0</MinAllowed>
+      </StaticMode>
+      <DynamicMode>
+        <PlacementMode>Both</PlacementMode>
+        <MaxAllowed>1</MaxAllowed>
+        <MinAllowed>0</MinAllowed>
+      </DynamicMode>
+    </VoxelPlacement>
+
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CraftingComponentQueuedDefinition">
+    <Id Type="CraftingComponentQueued" Subtype="LimeKilnTrough" />
+    <CraftingCategories>
+      <Category>LimeMortarPlasterProduction</Category>
+    </CraftingCategories>
+    <InputInventory>LimeKilnTroughInputInventory</InputInventory>
+    <OutputInventory>LimeKilnTroughOutputInventory</OutputInventory>
+    <CraftingInventory>ProcessingInventory</CraftingInventory>
+    <ProductionQueueSize>4</ProductionQueueSize>
+    <CraftingSpeedMultiplier>1</CraftingSpeedMultiplier>
+    <ConstrainInventory>true</ConstrainInventory>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id Type="MyObjectBuilder_Inventory" Subtype="LimeKilnTroughOutputInventory" />
+    <DisplayName>Output</DisplayName>
+    <InventoryName>LimeKilnTroughOutputInventory</InventoryName>
+    <MaxItemCount>4</MaxItemCount>
+    <MultiplierEnabled>false</MultiplierEnabled>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    <Id Type="MyObjectBuilder_Inventory" Subtype="LimeKilnTroughInputInventory" />
+    <DisplayName>Input</DisplayName>
+    <InventoryName>LimeKilnTroughInputInventory</InventoryName>
+    <MaxItemCount>4</MaxItemCount>
+    <MultiplierEnabled>false</MultiplierEnabled>
+  </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ModelAttachmentComponentDefinition">
+    <Id Type="ModelAttachmentComponent" Subtype="LimeKilnTrough" />
+    <Attachment Name="Inventory_Slot_02" Bone="Inventory_Slot_02">
+      <Rotation x="0" y="90" z="0" />
+    </Attachment>
+    <Attachment Name="Inventory_Slot_03" Bone="Inventory_Slot_03">
+      <Rotation x="0" y="90" z="0" />
+    </Attachment>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_VisualInventoryComponentDefinition">
+    <Id Type="VisualInventoryComponent" Subtype="LimeKilnTrough" />
+    <Mapping Inventory="LimeKilnOutputInventory" Slot="0" AttachmentPoint="Inventory_Slot_02" />
+    <Mapping Inventory="LimeKilnOutputInventory" Slot="1" AttachmentPoint="Inventory_Slot_03" />
+  </Definition>
+
+   <Definition xsi:type="MyObjectBuilder_ContainerDefinition">
+    <Id Type="CubeBlock" Subtype="LimeKilnTrough" />
+    <Component Type="ModelAttachmentComponent" Subtype="LimeKilnTrough" />  
+    <Component Type="VisualInventoryComponent" Subtype="LimeKilnTrough" />
+    <Component Type="Inventory" Subtype="LimeKilnTroughInputInventory" />
+    <Component Type="Inventory" Subtype="LimeKilnTroughOutputInventory" />
+    <Component Type="Inventory" Subtype="ProcessingInventory" />
+    <Component Type="CraftingComponentQueued" Subtype="LimeKilnTrough" />
+    <Component Type="InventorySpawnComponent" />
+  </Definition>
+
+</Definitions>

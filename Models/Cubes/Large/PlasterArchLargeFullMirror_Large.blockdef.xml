@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>PlasterArchLargeFullMirror_Large</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\PlasterArchLargeFullMirror.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Large\PlasterArchLargeFullMirror_Large.mwm</Model>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.01" EndX="0.99" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.01" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="0.20" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.81" StartY="0.01" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.19" />
+		<MountPoint Side="Top" StartX="0.01" StartY="0.80" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="-0.01" StartY="0.00" EndX="0.19" EndY="0.20" />
+		<MountPoint Side="Bottom" StartX="0.15" StartY="0.00" EndX="0.34" EndY="0.20" />
+		<MountPoint Side="Bottom" StartX="0.34" StartY="0.00" EndX="0.50" EndY="0.20" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.48" EndX="0.19" EndY="0.62" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.32" EndX="0.19" EndY="0.49" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.13" EndX="0.19" EndY="0.32" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.19" EndY="0.19" />
+	</MountPoints>
+	<BlockPairName>PlasterArchLargeFullMirror</BlockPairName>
+</Definition>

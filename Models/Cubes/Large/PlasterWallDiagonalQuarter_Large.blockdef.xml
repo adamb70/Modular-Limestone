@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>PlasterWallDiagonalQuarter_Large</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\PlasterWallDiagonalQuarter.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Large\PlasterWallDiagonalQuarter_Large.mwm</Model>
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PlasterWallDiagonalQuarter_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Bottom" StartX="0.60" StartY="0.00" EndX="1.00" EndY="0.40" />
+		<MountPoint Side="Front" StartX="0.20" StartY="0.00" EndX="0.40" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.60" StartY="0.00" EndX="0.80" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.60" StartY="0.60" EndX="1.00" EndY="1.00" />
+	</MountPoints>
+	<BlockPairName>PlasterWallDiagonalQuarter</BlockPairName>
+</Definition>

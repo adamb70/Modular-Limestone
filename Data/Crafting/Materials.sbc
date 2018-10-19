@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Type="MyObjectBuilder_CraftingRecipeDefinition" Subtype="LargeStoneToSmallLimeStones" />
+    <Icon>Textures\GUI\Icons\Materials\LimeStoneSmall.dds</Icon>
+    <DisplayName>Small Limestone (from Large Stone)</DisplayName>
+    <Category>StoneMasonry</Category>
+    <Prerequisites>
+      <Item Type="InventoryItem" Subtype="StoneLarge" Amount="1" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="5" Type="InventoryItem" Subtype="LimeStoneSmall" />
+    </Results>
+    <CraftingTime Seconds="1" />
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Type="MyObjectBuilder_CraftingRecipeDefinition" Subtype="LargeLimeStoneToSmallLimeStones" />
+    <Icon>Textures\GUI\Icons\Materials\LimeStoneSmallDouble.dds</Icon>
+    <DisplayName>Small Limestone (from Large Limestone)</DisplayName>
+    <Category>StoneMasonry</Category>
+    <Prerequisites>
+      <Item Type="InventoryItem" Subtype="LimeStoneLarge" Amount="1" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="10" Type="InventoryItem" Subtype="LimeStoneSmall" />
+    </Results>
+    <CraftingTime Seconds="1" />
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Type="MyObjectBuilder_CraftingRecipeDefinition" Subtype="DirtToSand" />
+    <DisplayName>Sand</DisplayName>
+	<Description>Grind Dirt into Sand</Description>
+    <Icon>Textures\GUI\Icons\Materials\SandBag.dds</Icon>
+    <Category>Milling</Category>
+    <Prerequisites>
+      <Item Type="InventoryItem" Subtype="Dirt" Amount="10" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="10" Type="InventoryItem" Subtype="LimeSand" />
+    </Results>
+    <CraftingTime Seconds="15" />
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Type="MyObjectBuilder_CraftingRecipeDefinition" Subtype="DirtToSandMechanical" />
+    <DisplayName>Sand</DisplayName>
+    <Description>Grind Dirt into Sand</Description>
+    <Icon>Textures\GUI\Icons\Materials\SandBag.dds</Icon>
+    <Category>MillstoneCoarse</Category>
+    <Prerequisites>
+      <Item Type="InventoryItem" Subtype="Dirt" Amount="10" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="15" Type="InventoryItem" Subtype="LimeSand" />
+    </Results>
+    <CraftingTime Seconds="5" />
+  </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Type="MyObjectBuilder_CraftingRecipeDefinition" Subtype="SmallLimeStoneToQuickLime" />
+    <Icon>Textures\GUI\Icons\Materials\Quicklime.dds</Icon>
+    <DisplayName>Quicklime</DisplayName>
+    <Category>QuickLimeProduction</Category>
+    <Prerequisites>
+      <Item Type="InventoryItem" Subtype="LimeStoneSmall" Amount="10" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="10" Type="InventoryItem" Subtype="QuickLime" />
+    </Results>
+    <CraftingTime Seconds="20" />
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Type="MyObjectBuilder_CraftingRecipeDefinition" Subtype="QuickLimeToLimeMortar" />
+    <Icon>Textures\GUI\Icons\Materials\LimeMortar.dds</Icon>
+    <DisplayName>Lime Mortar</DisplayName>
+    <Category>LimeMortarPlasterProduction</Category>
+    <Prerequisites>
+      <Item Type="InventoryItem" Subtype="QuickLime" Amount="5" />
+      <Item Type="InventoryItem" Subtype="LimeSand" Amount="10" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="10" Type="InventoryItem" Subtype="LimeMortar" />
+    </Results>
+    <CraftingTime Seconds="10" />
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Type="MyObjectBuilder_CraftingRecipeDefinition" Subtype="QuickLimeToLimePlaster" />
+    <Icon>Textures\GUI\Icons\Materials\LimePlaster.dds</Icon>
+    <DisplayName>Lime Plaster</DisplayName>
+    <Category>LimeMortarPlasterProduction</Category>
+    <Prerequisites>
+      <Item Type="InventoryItem" Subtype="QuickLime" Amount="5" />
+      <Item Type="InventoryItem" Subtype="LimeSand" Amount="5" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="10" Type="InventoryItem" Subtype="LimePlaster" />
+    </Results>
+    <CraftingTime Seconds="10" />
+  </Definition>
+
+</Definitions>

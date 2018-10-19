@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!--Stone Round Blocks-->
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="QuarterRoundWallBrick" />
+    <DisplayName>Quarter Round Wall Brick</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\QuarterRoundWallBrick.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\QuarterRoundWallBrick.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\QuarterRoundWallBrick_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <MountPoints>
+      <MountPoint Side="Front" StartX="0.08964002" StartY="-0.021242572" EndX="-0.0212425" EndY="1.0212425" />
+      <MountPoint Side="Back" StartX="-0.01907816" StartY="-0.02124238" EndX="0.225403056" EndY="1.02124238" />
+      <MountPoint Side="Left" StartX="0.909382463" StartY="-0.02124238" EndX="1.02124238" EndY="1.02124238" />
+      <MountPoint Side="Right" StartX="1.01905787" StartY="-0.021242572" EndX="0.774606168" EndY="1.0212425" />
+      <MountPoint Side="Top" StartX="-0.01907816" StartY="0.3997082" EndX="0.28130585" EndY="-0.02124238" />
+      <MountPoint Side="Top" StartX="0.6002996" StartY="1.01905775" EndX="1.0212425" EndY="0.7186942" />
+      <MountPoint Side="Top" StartX="0.2784441" StartY="0.9390662" EndX="0.712182" EndY="0.547671735" />
+      <MountPoint Side="Top" StartX="0.0609443672" StartY="0.7215558" EndX="0.4523283" EndY="0.287818" />
+      <MountPoint Side="Bottom" StartX="-0.01907816" StartY="0.6002918" EndX="0.28130585" EndY="1.02124238" />
+      <MountPoint Side="Bottom" StartX="0.6002996" StartY="-0.0190578" EndX="1.0212425" EndY="0.28130576" />
+      <MountPoint Side="Bottom" StartX="0.2784441" StartY="0.06093383" EndX="0.712182" EndY="0.452328265" />
+      <MountPoint Side="Bottom" StartX="0.0609443672" StartY="0.278444141" EndX="0.4523283" EndY="0.712182" />
+    </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="10" />
+    </Components>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <BuildType>RoundedWall</BuildType>
+    <BuildMaterial>Stone</BuildMaterial>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <MaxIntegrity>5000</MaxIntegrity>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>BrickRoundWall</BlockGroupName>
+    <CompoundTemplates>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <UseModelIntersection>true</UseModelIntersection>
+  </Definition>
+
+
+</Definitions>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model Name="LimePlaster">
+	<Parameter Name="RescaleFactor">0.01</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="SpecularPower">0.0</Parameter>
+	<Parameter Name="SpecularShininess">0.0</Parameter>
+	<Material Name="Plaster">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<!--material has no DiffuseTexture-->
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Items\Plaster_cm.DDS</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Items\Plaster_ng.DDS</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Items\Plaster_add.DDS</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="mat_wood_03.007">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<!--material has no DiffuseTexture-->
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Items\wood_03_cm.DDS</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Items\wood_03_ng.DDS</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Items\wood_03_add.DDS</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="mat_wood_07.007">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<!--material has no DiffuseTexture-->
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Items\wood_07_cm.DDS</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Items\wood_07_ng.DDS</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Items\wood_07_add.DDS</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="mat_metal.007">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<!--material has no DiffuseTexture-->
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Items\metal_cm.DDS</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Items\metal_ng.DDS</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Items\metal_add.DDS</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<LOD Distance="10">
+		<Model>Models\Components\LimePlaster_Small_LOD1</Model>
+	</LOD>
+	<LOD Distance="30">
+		<Model>Models\Components\LimePlaster_Small_LOD2</Model>
+	</LOD>
+	<LOD Distance="50">
+		<Model>Models\Components\LimePlaster_Small_LOD3</Model>
+	</LOD>
+</Model>

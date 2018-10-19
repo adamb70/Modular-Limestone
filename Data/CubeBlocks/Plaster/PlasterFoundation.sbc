@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterFoundation" />
+    <DisplayName>Plaster Foundation</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterFoundation.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterFoundation_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\StoneCube_Construction_1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		<MountPoint Side="Front" StartX="1.0324" StartY="-0.03239999" EndX="-0.032400012" EndY="1.0324" />
+		<MountPoint Side="Back" StartX="-0.03239999" StartY="-0.03239999" EndX="1.0324" EndY="1.0324" />
+		<MountPoint Side="Left" StartX="-0.03239999" StartY="-0.03239999" EndX="1.0324" EndY="1.0324" />
+		<MountPoint Side="Right" StartX="1.0324" StartY="-0.03239999" EndX="-0.032400012" EndY="1.0324" />
+		<MountPoint Side="Top" StartX="-0.03239999" StartY="1.0324" EndX="1.0324" EndY="-0.032400012" />
+		<MountPoint Side="Bottom" StartX="-0.03239999" StartY="-0.03239999" EndX="1.0324" EndY="1.0324" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildType>Cube</BuildType>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="2" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="2" />
+      <Component Tag="StoneSmall" Count ="25" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <CompoundTemplates>
+      <Template>Cube</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>21000</MaxIntegrity>
+    <NavigationDefinition>Default</NavigationDefinition>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterFoundation</BlockGroupName>
+    <BlockVariants>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterHalfFoundationSide</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterHalfFoundationBottom</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterHalfFoundationTop</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterHalfFoundationHalfBottom</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterHalfFoundationHalfTop</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterQuarterFoundation</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterQuarterFoundationHalfBottom</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterQuarterFoundationHalfTop</SubtypeId>
+      </BlockVariant>
+    </BlockVariants>
+  </Definition>
+
+  <!-- Half Foundation -->
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterHalfFoundationSide" />
+    <DisplayName>Plaster Half Foundation Side</DisplayName>
+    <Public>false</Public>
+    <GuiVisible>false</GuiVisible>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterFoundation.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterHalfFoundationSide_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterHalfFoundationSide_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		  <MountPoint Side="Back" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+		  <MountPoint Side="Right" StartX="0.10" StartY="0.20" EndX="0.40" EndY="0.80" />
+		  <MountPoint Side="Left" StartX="0.60" StartY="0.20" EndX="0.90" EndY="0.80" />
+		  <MountPoint Side="Top" StartX="0.20" StartY="0.10" EndX="0.80" EndY="0.40" />
+		  <MountPoint Side="Bottom" StartX="0.20" StartY="0.60" EndX="0.80" EndY="0.90" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildType>Cube</BuildType>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="2" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="2" />
+      <Component Tag="StoneSmall" Count ="12" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <CompoundTemplates>
+      <Template>Cube</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>21000</MaxIntegrity>
+    <NavigationDefinition>Default</NavigationDefinition>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterFoundation</BlockGroupName>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterHalfFoundationBottom" />
+    <DisplayName>Plaster Half Foundation Bottom</DisplayName>
+    <Public>false</Public>
+    <GuiVisible>false</GuiVisible>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterFoundation.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterHalfFoundationBottom_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterHalfFoundationBottom_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		  <MountPoint Side="Front" StartX="0.20" StartY="0.10" EndX="0.80" EndY="0.40" />
+		  <MountPoint Side="Back" StartX="0.20" StartY="0.10" EndX="0.80" EndY="0.40" />
+		  <MountPoint Side="Left" StartX="0.20" StartY="0.10" EndX="0.80" EndY="0.40" />
+		  <MountPoint Side="Right" StartX="0.20" StartY="0.10" EndX="0.80" EndY="0.40" />
+		  <MountPoint Side="Bottom" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildType>Cube</BuildType>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="2" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="2" />
+      <Component Tag="StoneSmall" Count ="12" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <CompoundTemplates>
+      <Template>Cube</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>21000</MaxIntegrity>
+    <NavigationDefinition>Default</NavigationDefinition>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterFoundation</BlockGroupName>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterHalfFoundationTop" />
+    <DisplayName>Plaster Half Foundation Top</DisplayName>
+    <Public>false</Public>
+    <GuiVisible>false</GuiVisible>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterFoundation.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterHalfFoundationTop_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterHalfFoundationTop_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		  <MountPoint Side="Front" StartX="0.20" StartY="0.60" EndX="0.80" EndY="0.90" />
+		  <MountPoint Side="Back" StartX="0.20" StartY="0.60" EndX="0.80" EndY="0.90" />
+		  <MountPoint Side="Left" StartX="0.20" StartY="0.60" EndX="0.80" EndY="0.90" />
+		  <MountPoint Side="Right" StartX="0.20" StartY="0.60" EndX="0.80" EndY="0.90" />
+		  <MountPoint Side="Top" StartX="0.20" StartY="0.20" EndX="0.80" EndY="0.80" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildType>Cube</BuildType>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="2" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="2" />
+      <Component Tag="StoneSmall" Count ="12" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <CompoundTemplates>
+      <Template>Cube</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>21000</MaxIntegrity>
+    <NavigationDefinition>Default</NavigationDefinition>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterFoundation</BlockGroupName>
+  </Definition>
+
+  <!-- Half-Half Foundation -->
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterHalfFoundationHalfBottom" />
+    <DisplayName>Plaster Half-Half Foundation Bottom</DisplayName>
+    <Public>false</Public>
+    <GuiVisible>false</GuiVisible>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterFoundation.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterHalfFoundationHalfBottom_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterHalfFoundationHalfBottom_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		  <MountPoint Side="Back" StartX="0.20" StartY="0.10" EndX="0.80" EndY="0.40" />
+		  <MountPoint Side="Left" StartX="0.60" StartY="0.10" EndX="0.90" EndY="0.40" />
+	  	<MountPoint Side="Right" StartX="0.10" StartY="0.10" EndX="0.40" EndY="0.40" />
+		  <MountPoint Side="Bottom" StartX="0.20" StartY="0.60" EndX="0.80" EndY="0.90" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildType>Cube</BuildType>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="1" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="1" />
+      <Component Tag="StoneSmall" Count ="6" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <CompoundTemplates>
+      <Template>Cube</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>21000</MaxIntegrity>
+    <NavigationDefinition>Default</NavigationDefinition>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterFoundation</BlockGroupName>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterHalfFoundationHalfTop" />
+    <DisplayName>Plaster Half-Half Foundation Top</DisplayName>
+    <Public>false</Public>
+    <GuiVisible>false</GuiVisible>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterFoundation.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterHalfFoundationHalfTop_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterHalfFoundationHalfTop_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		  <MountPoint Side="Back" StartX="0.20" StartY="0.60" EndX="0.80" EndY="0.90" />
+		  <MountPoint Side="Left" StartX="0.60" StartY="0.60" EndX="0.90" EndY="0.90" />
+		  <MountPoint Side="Right" StartX="0.10" StartY="0.60" EndX="0.40" EndY="0.90" />
+		  <MountPoint Side="Top" StartX="0.20" StartY="0.10" EndX="0.80" EndY="0.40" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildType>Cube</BuildType>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="1" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="1" />
+      <Component Tag="StoneSmall" Count ="6" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <CompoundTemplates>
+      <Template>Cube</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>21000</MaxIntegrity>
+    <NavigationDefinition>Default</NavigationDefinition>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterFoundation</BlockGroupName>
+  </Definition>
+
+  <!-- Quarter Foundation -->
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterQuarterFoundation" />
+    <DisplayName>Plaster Quarter Foundation</DisplayName>
+    <Public>false</Public>
+    <GuiVisible>false</GuiVisible>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterFoundation.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterQuarterFoundation_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterQuarterFoundation_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		  <MountPoint Side="Back" StartX="0.60" StartY="0.20" EndX="0.90" EndY="0.80" />
+		  <MountPoint Side="Right" StartX="0.10" StartY="0.20" EndX="0.40" EndY="0.80" />
+		  <MountPoint Side="Bottom" StartX="0.60" StartY="0.60" EndX="0.90" EndY="0.90" />
+		  <MountPoint Side="Top" StartX="0.60" StartY="0.10" EndX="0.90" EndY="0.40" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildType>Cube</BuildType>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="1" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="1" />
+      <Component Tag="StoneSmall" Count ="6" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <CompoundTemplates>
+      <Template>Cube</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>21000</MaxIntegrity>
+    <NavigationDefinition>Default</NavigationDefinition>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterFoundation</BlockGroupName>
+  </Definition>
+
+  <!-- Quarter-Half Foundation -->
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterQuarterFoundationHalfBottom" />
+    <DisplayName>Plaster Quarter-Half Foundation Bottom</DisplayName>
+    <Public>false</Public>
+    <GuiVisible>false</GuiVisible>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterFoundation.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterQuarterFoundationHalfBottom_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterQuarterFoundationHalfBottom_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		  <MountPoint Side="Back" StartX="0.60" StartY="0.10" EndX="0.90" EndY="0.40" />
+		  <MountPoint Side="Right" StartX="0.10" StartY="0.10" EndX="0.40" EndY="0.40" />
+		  <MountPoint Side="Bottom" StartX="0.60" StartY="0.60" EndX="0.90" EndY="0.90" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildType>Cube</BuildType>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="1" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="1" />
+      <Component Tag="StoneSmall" Count ="3" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <CompoundTemplates>
+      <Template>Cube</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>21000</MaxIntegrity>
+    <NavigationDefinition>Default</NavigationDefinition>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterFoundation</BlockGroupName>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterQuarterFoundationHalfTop" />
+    <DisplayName>Plaster Quarter-Half Foundation Top</DisplayName>
+    <Public>false</Public>
+    <GuiVisible>false</GuiVisible>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterFoundation.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterQuarterFoundationHalfTop_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterQuarterFoundationHalfTop_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		  <MountPoint Side="Back" StartX="0.60" StartY="0.60" EndX="0.90" EndY="0.90" />
+		  <MountPoint Side="Right" StartX="0.10" StartY="0.60" EndX="0.40" EndY="0.90" />
+		  <MountPoint Side="Top" StartX="0.60" StartY="0.10" EndX="0.90" EndY="0.40" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildType>Cube</BuildType>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="LimePlaster" Count ="1" />
+      <Component Type="InventoryItem" Subtype="LimeMortar" Count ="1" />
+      <Component Tag="StoneSmall" Count ="3" />
+    </Components>
+    <CriticalComponent Tag="StoneSmall" Index="0" />
+    <CompoundTemplates>
+      <Template>Cube</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>21000</MaxIntegrity>
+    <NavigationDefinition>Default</NavigationDefinition>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterFoundation</BlockGroupName>
+  </Definition>
+
+</Definitions>

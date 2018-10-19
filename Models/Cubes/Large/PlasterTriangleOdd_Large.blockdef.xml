@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>PlasterTriangleOdd_Large</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\PlasterTriangleOdd.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Large\PlasterTriangleOdd_Large.mwm</Model>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.00" StartY="0.01" EndX="0.99" EndY="0.50" />
+		<MountPoint Side="Front" StartX="0.01" StartY="0.01" EndX="1.00" EndY="0.50" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.99" EndY="0.18" />
+	</MountPoints>
+	<BlockPairName>PlasterTriangleOdd</BlockPairName>
+</Definition>

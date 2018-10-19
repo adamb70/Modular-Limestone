@@ -1,0 +1,87 @@
+Running from: C:\Users\Alex\AppData\Local\Temp\tmpk7k7cbue 
+Command: D:\Games\Steam\steamapps\common\MedievalEngineersModSDK\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:LimeKiln_Large.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\TexturesCom_StoneWall2_3x3_1024_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\TexturesCom_StoneWall2_3x3_1024_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\TexturesCom_StoneWall2_3x3_1024_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\TexturesCom_CliffRock_B_2x2_1024_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\TexturesCom_CliffRock_B_2x2_1024_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\TexturesCom_CliffRock_B_2x2_1024_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Weapons\StoneAxe_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Weapons\StoneAxe_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Weapons\StoneAxe_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\coal_albedo_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\coal_albedo_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\coal_albedo_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Voxels\Limestone_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Voxels\Limestone_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Voxels\Limestone_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\TexturesCom_Wood_Rough_1K_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\TexturesCom_Wood_Rough_1K_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\TexturesCom_Wood_Rough_1K_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\block_sheet_de.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\block_sheet_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\block_sheet_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\block_sheet_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\block_sheet_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\block_sheet_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\block_sheet_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Weapons\Shovel_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Weapons\Shovel_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Weapons\Shovel_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\RoughWood_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\RoughWood_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\RoughWood_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Woods\SemiRoughPlanksFloor_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Woods\SemiRoughPlanksFloor_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Woods\SemiRoughPlanksFloor_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+: WARNING: 
+    Model contains degenerated triangle (indices 61988 61987 61986)
+: WARNING: 
+    Model contains degenerated triangle (indices 68397 68396 68395)
+: WARNING: 
+    Model contains degenerated triangle (indices 71483 71486 71485)
+: WARNING: 
+    Model contains degenerated triangle (indices 71498 71497 71496)
+: WARNING: 
+    Model contains degenerated triangle (indices 71507 71493 71506)
+: WARNING: 
+    Model contains degenerated triangle (indices 71505 71493 71514)
+C:\Users\Alex\AppData\Local\Temp\tmpk7k7cbue\Content\LimeKiln_Large.fbx: Processed
+: 
+    : Finished in 0.4s

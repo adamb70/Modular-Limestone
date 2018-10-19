@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>PlasterArchFull_Large</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\PlasterArchFull.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Large\PlasterArchFull_Large.mwm</Model>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.01" StartY="0.01" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.01" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.81" StartY="0.01" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.01" StartY="0.01" EndX="0.19" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.01" StartY="0.81" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.01" StartY="0.01" EndX="1.00" EndY="0.19" />
+	</MountPoints>
+	<BlockPairName>PlasterArchFull</BlockPairName>
+</Definition>

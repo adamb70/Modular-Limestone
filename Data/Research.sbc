@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <Definition xsi:type="ResearchDefinition" Merge="Append">
+    <Id Type="ResearchDefinition" Subtype="CivilianStoneWalls" />
+    <Entry Type="CubeBlock" Subtype="PlasterArch" />
+    <Entry Type="CubeBlock" Subtype="PlasterArchFull" />
+    <Entry Type="CubeBlock" Subtype="Doorway1" />
+    <Entry Type="CubeBlock" Subtype="DoorWay1Door" />
+    <Entry Type="CubeBlock" Subtype="PlasterPillar" />
+    <Entry Type="CubeBlock" Subtype="PlasterTriangle" />
+    <Entry Type="CubeBlock" Subtype="PlasterTriangleOdd" />
+    <Entry Type="CubeBlock" Subtype="PlasterWall" />
+    <Entry Type="CubeBlock" Subtype="PlasterWindow" />
+    <Entry Type="CubeBlock" Subtype="PlasterWindowShutter" />
+    <Entry Type="CubeBlock" Subtype="PlasterFoundation" />
+    <Entry Type="CubeBlock" Subtype="PlasterSlope" />
+    <Entry Type="CubeBlock" Subtype="PlasterStairs" />
+    <Entry Type="CubeBlock" Subtype="RoundQuarterPlaster" />
+    <Entry Type="CubeBlock" Subtype="RoundQuarterWallPlaster" />
+    <Entry Type="CubeBlock" Subtype="PlasterDoorwayRound" />
+    <Entry Type="CubeBlock" Subtype="RoundPlasterWindow" />
+    <Entry Type="CubeBlock" Subtype="QuarterRoundWallPlaster" />
+    <Entry Type="CubeBlock" Subtype="QuarterRoundPlaster" />
+    <Entry Type="CubeBlock" Subtype="DoorFrame" />
+        <Entry Type="CraftingRecipeDefinition" Subtype="DoorFrame" />
+  </Definition>
+
+</Definitions>

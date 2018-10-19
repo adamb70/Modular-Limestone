@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="BrickDoorwayRound" />
+    <DisplayName>Brick Doorway Round</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\BrickDoorwayRound.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\BrickDoorwayRound.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\BrickDoorwayRound_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <MountPoints>
+      <MountPoint Side="Front" StartX="0.106575787" StartY="-0.01936369" EndX="0.0265756249" EndY="1.01936376" />
+      <MountPoint Side="Left" StartX="0.8866626" StartY="-0.01936369" EndX="0.9666626" EndY="1.01936376" />
+      <MountPoint Side="Right" StartX="0.8576596" StartY="-0.01936369" EndX="0.7776596" EndY="1.01936376" />
+      <MountPoint Side="Top" StartX="-0.017357206" StartY="0.4811204" EndX="0.3173996" EndY="-0.009199023" />
+      <MountPoint Side="Top" StartX="0.139564544" StartY="0.8606039" EndX="0.607245266" EndY="0.392923176" />
+      <MountPoint Side="Top" StartX="0.5247757" StartY="1.0168575" EndX="1.01509511" EndY="0.6821007" />
+      <MountPoint Side="Bottom" StartX="-0.017357206" StartY="0.5188796" EndX="0.3173996" EndY="1.009199" />
+      <MountPoint Side="Bottom" StartX="0.5247757" StartY="-0.01685748" EndX="1.01509511" EndY="0.3178993" />
+    </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="4" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="5" />
+    </Components>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <CompoundTemplates>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>5000</MaxIntegrity>
+    <BlockGroupName>BrickRoundDoorway</BlockGroupName>
+    <UseModelIntersection>true</UseModelIntersection>
+  </Definition>
+
+
+
+</Definitions>

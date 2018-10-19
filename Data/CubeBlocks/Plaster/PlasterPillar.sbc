@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterPillarCorner" />
+    <DisplayName>Plaster Pillar Corner</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterPillar.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterPillarCorner_Large.mwm</Model>
+	  <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\GeneratedStoneSlopeEdgeLeft_Construction_1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+      <MountPoint Side="Front" StartX="1.04000807" StartY="-0.0352594852" EndX="0.7502209" EndY="1.0351361" />
+      <MountPoint Side="Left" StartX="-0.0361264236" StartY="-0.0352594852" EndX="0.236461878" EndY="1.0351361" />
+      <MountPoint Side="Top" StartX="-0.0400080681" StartY="1.03612638" EndX="0.249779135" EndY="0.7635381" />
+      <MountPoint Side="Bottom" StartX="-0.0400080681" StartY="-0.0361264236" EndX="0.249779135" EndY="0.236461878" />
+    </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>LimeStonePillar</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="1" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <BuildType>Pillar</BuildType>
+    <Direction>Horizontal</Direction>
+    <UseModelIntersection>true</UseModelIntersection>
+    <MaxIntegrity>1000</MaxIntegrity>
+    <CompoundTemplates>
+      <Template>Cube</Template>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <AvailableInSurvival>true</AvailableInSurvival>
+    <BlockGroupName>PlasterPillar</BlockGroupName>
+	  <BlockVariants>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterPillarQuarter</SubtypeId>
+      </BlockVariant>
+	      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterPillarMiddle</SubtypeId>
+      </BlockVariant>
+	      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterPillarThreeQuarter</SubtypeId>
+      </BlockVariant>
+       <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterPillarInnerQuarter</SubtypeId>
+      </BlockVariant>
+       <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterPillarInnerMiddle</SubtypeId>
+      </BlockVariant>
+       <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterPillarInnerThreeQuarter</SubtypeId>
+      </BlockVariant>
+       <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterPillarCenter</SubtypeId>
+      </BlockVariant>
+    </BlockVariants>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterPillarMiddle" />
+    <DisplayName>Plaster Pillar Middle</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterPillar.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterPillarMiddle_Large.mwm</Model>
+	  <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterPillarMiddle_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+	  	<MountPoint Side="Front" StartX="0.40" StartY="0.20" EndX="0.60" EndY="0.80" />
+	  	<MountPoint Side="Bottom" StartX="0.41" StartY="0.01" EndX="0.59" EndY="0.19" />
+	  	<MountPoint Side="Top" StartX="0.40" StartY="0.80" EndX="0.60" EndY="1.00" />
+  	</MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>LimeStonePillar</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="1" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <BuildType>Pillar</BuildType>
+    <Direction>Horizontal</Direction>
+    <UseModelIntersection>true</UseModelIntersection>
+    <MaxIntegrity>1000</MaxIntegrity>
+    <CompoundTemplates>
+      <Template>Cube</Template>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <AvailableInSurvival>true</AvailableInSurvival>
+  	<GuiVisible>false</GuiVisible>
+    <BlockGroupName>PlasterPillar</BlockGroupName>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterPillarQuarter" />
+    <DisplayName>Plaster Pillar Quarter</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterPillar.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterPillarQuarter_Large.mwm</Model>
+	  <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterPillarQuarter_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+		  <MountPoint Side="Front" StartX="0.60" StartY="0.20" EndX="0.80" EndY="0.80" />
+		  <MountPoint Side="Bottom" StartX="0.21" StartY="0.01" EndX="0.39" EndY="0.19" />
+		  <MountPoint Side="Top" StartX="0.20" StartY="0.80" EndX="0.40" EndY="1.00" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>LimeStonePillar</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="1" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <BuildType>Pillar</BuildType>
+    <Direction>Horizontal</Direction>
+    <UseModelIntersection>true</UseModelIntersection>
+    <MaxIntegrity>1000</MaxIntegrity>
+    <CompoundTemplates>
+      <Template>Cube</Template>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <AvailableInSurvival>true</AvailableInSurvival>
+  	<GuiVisible>false</GuiVisible>
+    <BlockGroupName>PlasterPillar</BlockGroupName>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterPillarThreeQuarter" />
+    <DisplayName>Plaster Pillar Three Quarter</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterPillar.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterPillarThreeQuarter_Large.mwm</Model>
+	  <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterPillarThreeQuarter_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+	  	<MountPoint Side="Front" StartX="0.20" StartY="0.20" EndX="0.40" EndY="0.80" />
+	  	<MountPoint Side="Bottom" StartX="0.61" StartY="0.01" EndX="0.79" EndY="0.19" />
+	  	<MountPoint Side="Top" StartX="0.60" StartY="0.80" EndX="0.80" EndY="1.00" />
+  	</MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>LimeStonePillar</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="1" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <BuildType>Pillar</BuildType>
+    <Direction>Horizontal</Direction>
+    <UseModelIntersection>true</UseModelIntersection>
+    <MaxIntegrity>1000</MaxIntegrity>
+    <CompoundTemplates>
+      <Template>Cube</Template>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <AvailableInSurvival>true</AvailableInSurvival>
+  	<GuiVisible>false</GuiVisible>
+    <BlockGroupName>PlasterPillar</BlockGroupName>
+  </Definition>
+  
+<!-- Inner Pillars -->
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterPillarInnerQuarter" />
+    <DisplayName>Inner Plaster Pillar Quarter</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterPillar.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterPillarInnerQuarter_Large.mwm</Model>
+	  <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterPillarInnerQuarter_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+  		<MountPoint Side="Bottom" StartX="0.24" StartY="0.24" EndX="0.36" EndY="0.36" />
+  		<MountPoint Side="Top" StartX="0.24" StartY="0.64" EndX="0.36" EndY="0.76" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>LimeStonePillar</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="1" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <BuildType>Pillar</BuildType>
+    <Direction>Horizontal</Direction>
+    <UseModelIntersection>true</UseModelIntersection>
+    <MaxIntegrity>1000</MaxIntegrity>
+    <CompoundTemplates>
+      <Template>Cube</Template>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <AvailableInSurvival>true</AvailableInSurvival>
+	  <GuiVisible>false</GuiVisible>
+    <BlockGroupName>PlasterPillar</BlockGroupName>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterPillarInnerMiddle" />
+    <DisplayName>Inner Plaster Pillar Middle</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterPillar.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterPillarInnerMiddle_Large.mwm</Model>
+	  <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterPillarInnerMiddle_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+	  	<MountPoint Side="Bottom" StartX="0.44" StartY="0.24" EndX="0.56" EndY="0.36" />
+	  	<MountPoint Side="Top" StartX="0.44" StartY="0.64" EndX="0.56" EndY="0.76" />
+	  </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>LimeStonePillar</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="1" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <BuildType>Pillar</BuildType>
+    <Direction>Horizontal</Direction>
+    <UseModelIntersection>true</UseModelIntersection>
+    <MaxIntegrity>1000</MaxIntegrity>
+    <CompoundTemplates>
+      <Template>Cube</Template>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <AvailableInSurvival>true</AvailableInSurvival>
+	  <GuiVisible>false</GuiVisible>
+    <BlockGroupName>PlasterPillar</BlockGroupName>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterPillarInnerThreeQuarter" />
+    <DisplayName>Inner Plaster Pillar Three Quarter</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterPillar.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterPillarInnerThreeQuarter_Large.mwm</Model>
+	  <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterPillarInnerThreeQuarter_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+  		<MountPoint Side="Bottom" StartX="0.64" StartY="0.24" EndX="0.76" EndY="0.36" />
+  		<MountPoint Side="Top" StartX="0.64" StartY="0.64" EndX="0.76" EndY="0.76" />
+  	</MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>LimeStonePillar</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="1" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <BuildType>Pillar</BuildType>
+    <Direction>Horizontal</Direction>
+    <UseModelIntersection>true</UseModelIntersection>
+    <MaxIntegrity>1000</MaxIntegrity>
+    <CompoundTemplates>
+      <Template>Cube</Template>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <AvailableInSurvival>true</AvailableInSurvival>
+	  <GuiVisible>false</GuiVisible>
+    <BlockGroupName>PlasterPillar</BlockGroupName>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterPillarCenter" />
+    <DisplayName>Plaster Pillar Center</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterPillar.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterPillarCenter_Large.mwm</Model>
+	  <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\PlasterPillarCenter_Large_Constr1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+  		<MountPoint Side="Bottom" StartX="0.44" StartY="0.44" EndX="0.56" EndY="0.56" />
+	  	<MountPoint Side="Top" StartX="0.44" StartY="0.44" EndX="0.56" EndY="0.56" />
+  	</MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>LimeStonePillar</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="1" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <BuildType>Pillar</BuildType>
+    <Direction>Horizontal</Direction>
+    <UseModelIntersection>true</UseModelIntersection>
+    <MaxIntegrity>1000</MaxIntegrity>
+    <CompoundTemplates>
+      <Template>Cube</Template>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <AvailableInSurvival>true</AvailableInSurvival>
+  	<GuiVisible>false</GuiVisible>
+    <BlockGroupName>PlasterPillar</BlockGroupName>
+  </Definition>
+
+</Definitions>

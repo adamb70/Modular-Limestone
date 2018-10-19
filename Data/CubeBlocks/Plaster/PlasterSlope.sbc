@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterSlope" />
+    <DisplayName>Plaster Slope</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterSlope.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterSlope_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\StoneSlope_Construction_1.mwm" />
+    </BuildProgressModels>
+	<MountPoints>
+      <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+      <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.25" EndY="0.25" />
+      <MountPoint Side="Left" StartX="0.25" StartY="0.0" EndX="0.5" EndY="0.5" />
+      <MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="0.75" EndY="0.75" />
+      <MountPoint Side="Left" StartX="0.75" StartY="0.0" EndX="1.0" EndY="1.0" />
+      <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.25" EndY="1.0" />
+      <MountPoint Side="Right" StartX="0.25" StartY="0.0" EndX="0.50" EndY="0.75" />
+      <MountPoint Side="Right" StartX="0.50" StartY="0.0" EndX="0.75" EndY="0.50" />
+      <MountPoint Side="Right" StartX="0.75" StartY="0.0" EndX="1.0" EndY="0.25" />
+      <MountPoint Side="Bottom" StartX="-0.0233933926" StartY="-0.0106560234" EndX="1.02339351" EndY="1.02339351" />
+    </MountPoints>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="12" />
+    </Components>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <UseModelIntersection>true</UseModelIntersection>
+    <CompoundTemplates>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>12500</MaxIntegrity>
+    <NavigationDefinition>Ramp1x1l</NavigationDefinition>
+    <BlockGroupName>PlasterSlope</BlockGroupName>
+	  <BlockVariants>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterSlopeDiagonal</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlasterSlopeCeiling</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlasterSlopeWithBattlementRight</SubtypeId>
+      </BlockVariant>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlasterSlopeWithBattlementLeft</SubtypeId>
+      </BlockVariant>
+        <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+          <SubtypeId>PlasterSlopeWithBattlements</SubtypeId>
+      </BlockVariant>
+    </BlockVariants>
+  </Definition>
+
+
+</Definitions>

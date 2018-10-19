@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>PlasterArchSmallFull_Large</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\PlasterArchSmallFull.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Large\PlasterArchSmallFull_Large.mwm</Model>
+	<MountPoints>
+		<MountPoint Side="Right" StartX="0.80" StartY="0.58" EndX="1.00" EndY="0.61" />
+		<MountPoint Side="Front" StartX="0.50" StartY="0.50" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.80" StartY="0.80" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.80" EndX="0.50" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.50" EndX="0.20" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.20" EndY="0.20" />
+		<MountPoint Side="Right" StartX="0.80" StartY="0.50" EndX="1.00" EndY="0.54" />
+		<MountPoint Side="Right" StartX="0.80" StartY="0.54" EndX="1.00" EndY="0.58" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.50" EndX="0.50" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.80" StartY="0.61" EndX="1.00" EndY="0.65" />
+		<MountPoint Side="Right" StartX="0.80" StartY="0.65" EndX="1.00" EndY="0.68" />
+		<MountPoint Side="Right" StartX="0.80" StartY="0.68" EndX="1.00" EndY="0.71" />
+		<MountPoint Side="Bottom" StartX="0.29" StartY="0.00" EndX="0.32" EndY="0.20" />
+		<MountPoint Side="Bottom" StartX="0.32" StartY="0.00" EndX="0.35" EndY="0.20" />
+		<MountPoint Side="Bottom" StartX="0.35" StartY="0.00" EndX="0.39" EndY="0.20" />
+		<MountPoint Side="Bottom" StartX="0.39" StartY="0.00" EndX="0.42" EndY="0.20" />
+		<MountPoint Side="Bottom" StartX="0.42" StartY="0.00" EndX="0.46" EndY="0.20" />
+		<MountPoint Side="Bottom" StartX="0.46" StartY="0.00" EndX="0.50" EndY="0.20" />
+	</MountPoints>
+	<BlockPairName>PlasterArchSmallFull</BlockPairName>
+</Definition>

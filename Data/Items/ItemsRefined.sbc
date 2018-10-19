@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Type="InventoryItem" Subtype="LimeSand" />
+    <Public>true</Public>
+    <DisplayName>Sand</DisplayName>
+    <Description>"I don't like sand. It's coarse and rough and irritating,... but it's a useful building material." - Anakin Skywalker</Description>
+    <Icon>Textures\GUI\Icons\Materials\SandBag.dds</Icon>
+    <Size>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+    </Size>
+    <Model>Models\Components\SandBag.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Mass>6</Mass>
+    <MaxStackAmount>100</MaxStackAmount>
+    <Health>10</Health>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Type="InventoryItem" Subtype="QuickLime" />
+    <Public>true</Public>
+    <DisplayName>Quicklime</DisplayName>
+    <Description>Quicklime is obtained by 'burning' or heating calcium carbonate, which occurs in natural limestone deposits, in a dedicated lime kiln. 
+    This process is one of the oldest chemical operations discovered by man, being used all over the world.</Description>
+    <Icon>Textures\GUI\Icons\Materials\Quicklime.dds</Icon>
+    <Size>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+    </Size>
+    <Model>Models\Components\QuicklimeBag_small.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Mass>6</Mass>
+    <MaxStackAmount>50</MaxStackAmount>
+    <Health>10</Health>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Type="InventoryItem" Subtype="LimePlaster" />
+    <Public>true</Public>
+    <DisplayName>Lime Plaster</DisplayName>
+    <Description>Lime plaster is a type of plaster composed of sand, water, and lime, usually non-hydraulic hydrated lime.</Description>
+    <Icon>Textures\GUI\Icons\Materials\LimePlaster.dds</Icon>
+    <Size>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+    </Size>
+    <Model>Models\Components\LimePlaster_small.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Mass>5</Mass>
+    <MaxStackAmount>10</MaxStackAmount>
+    <Health>10</Health>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Type="InventoryItem" Subtype="LimeMortar" />
+    <Public>true</Public>
+    <DisplayName>Lime Mortar</DisplayName>
+    <Description>Lime mortar is composed of lime and an aggregate such as sand, mixed with water. 
+    It is one of the oldest known types of mortar also used in ancient Rome and Greece.</Description>
+    <Icon>Textures\GUI\Icons\Materials\LimeMortar.dds</Icon>
+    <Size>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+    </Size>
+    <Model>Models\Components\LimeMortar_small.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Mass>5</Mass>
+    <MaxStackAmount>10</MaxStackAmount>
+    <Health>10</Health>
+  </Definition>
+  
+</Definitions>

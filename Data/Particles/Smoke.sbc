@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Definition xsi:type="MyObjectBuilder_ParticleEffectDefinition" Enabled="true" Merge="Overwrite">
+    <Id Type="MyObjectBuilder_ParticleEffectDefinition" Subtype="LimeKilnSmoke" />
+    <CopyFrom xsi:nil="true" />
+    <Length>10</Length>
+    <Loop>true</Loop>
+    <Duration Min="0" Max="0" />
+    <Emitter Enabled="false" Name="Fire" Generation="CPU" Type="Point">
+      <Birth>
+        <Key Time="0">
+          <Value>2</Value>
+        </Key>
+      </Birth>
+      <BirthVar>0</BirthVar>
+      <BirthPerFrame />
+      <Life>
+        <Key Time="0">
+          <Value>0.7</Value>
+        </Key>
+      </Life>
+      <LifeVar>0</LifeVar>
+      <Velocity>
+        <Key Time="0">
+          <Value x="0" y="0" z="0" />
+        </Key>
+      </Velocity>
+      <VelocityDir>Default</VelocityDir>
+      <VelocityVar />
+      <Angle>
+        <Key Time="0">
+          <Value x="0" y="0" z="90" />
+        </Key>
+      </Angle>
+      <AngleVar x="0" y="0" z="0" />
+      <RotationSpeed />
+      <RotationSpeedVar x="0" y="0" z="0" />
+      <Radius>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>0.13</Value>
+            </Key>
+          </Value>
+        </Key>
+      </Radius>
+      <RadiusVar />
+      <RadiusBySpeed>0</RadiusBySpeed>
+      <Color>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>
+                <PackedValue>4294967295</PackedValue>
+                <X>255</X>
+                <Y>255</Y>
+                <Z>255</Z>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+              </Value>
+            </Key>
+            <Key Time="1">
+              <Value>
+                <PackedValue>4294967295</PackedValue>
+                <X>255</X>
+                <Y>255</Y>
+                <Z>255</Z>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+              </Value>
+            </Key>
+          </Value>
+        </Key>
+      </Color>
+      <ColorVar />
+      <ColorIntensity>
+        <Key Time="0">
+          <Value>3</Value>
+        </Key>
+      </ColorIntensity>
+      <Material>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>TorchFire</Value>
+            </Key>
+          </Value>
+        </Key>
+      </Material>
+      <ParticleType>Point</ParticleType>
+      <Thickness>
+        <Key Time="0">
+          <Value>0.25</Value>
+        </Key>
+      </Thickness>
+      <BlendTextures>false</BlendTextures>
+      <EnableCustomRadius>false</EnableCustomRadius>
+      <EnableCustomBirth>false</EnableCustomBirth>
+      <OnDie>-1</OnDie>
+      <OnLife>-1</OnLife>
+      <LODBirth>
+        <Key Time="0">
+          <Value>1</Value>
+        </Key>
+        <Key Time="0.5">
+          <Value>1</Value>
+        </Key>
+        <Key Time="1">
+          <Value>0</Value>
+        </Key>
+      </LODBirth>
+      <LODRadius>
+        <Key Time="0">
+          <Value>1</Value>
+        </Key>
+      </LODRadius>
+      <MotionInheritance>
+        <Key Time="0">
+          <Value>1</Value>
+        </Key>
+      </MotionInheritance>
+      <UseLayerSorting>false</UseLayerSorting>
+      <SortLayer>0</SortLayer>
+      <AlphaAnisotropic>false</AlphaAnisotropic>
+      <Gravity>0</Gravity>
+      <PivotRotation />
+      <Acceleration />
+      <AccelerationVar>0</AccelerationVar>
+      <AlphaCutout />
+      <SoftParticleDistanceScale>0</SoftParticleDistanceScale>
+      <Pivot>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value x="0" y="0" z="0" />
+            </Key>
+          </Value>
+        </Key>
+      </Pivot>
+      <PivotVar x="0" y="0" z="0" />
+      <PivorRotationVar x="0" y="0" z="0" />
+      <RotationReference>Gravity</RotationReference>
+      <ArraySize x="5" y="5" z="0" />
+      <ArrayIndex>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>0</Value>
+            </Key>
+            <Key Time="0.998954535">
+              <Value>24</Value>
+            </Key>
+          </Value>
+        </Key>
+      </ArrayIndex>
+      <ArrayOffset>0</ArrayOffset>
+      <ArrayModulo>0</ArrayModulo>
+      <AccelerationReference>Local</AccelerationReference>
+      <Offset>
+        <Key Time="0">
+          <Value x="0" y="0" z="0.05" />
+        </Key>
+      </Offset>
+      <Rotation>
+        <Key Time="0">
+          <Value x="0" y="0" z="0" />
+        </Key>
+      </Rotation>
+      <AxisScale x="1" y="1" z="1" />
+      <Size>
+        <Key Time="0">
+          <Value>1</Value>
+        </Key>
+      </Size>
+      <RadiusMin>1</RadiusMin>
+      <RadiusMax>1</RadiusMax>
+      <DirToCamera>true</DirToCamera>
+      <LimitAngle>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </LimitAngle>
+      <GPU_ColorIntensity />
+      <GPU_ColorVar>0</GPU_ColorVar>
+      <GPU_HueVar>0</GPU_HueVar>
+      <GPU_Bounciness>0</GPU_Bounciness>
+      <GPU_EmitterSize />
+      <GPU_EmitterSizeMin />
+      <GPU_Offset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </GPU_Offset>
+      <GPU_Direction>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </GPU_Direction>
+      <GPU_Velocity />
+      <GPU_DirectionCone />
+      <GPU_DirectionConeInner />
+      <GPU_Acceleration>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </GPU_Acceleration>
+      <GPU_RotationEnabled>false</GPU_RotationEnabled>
+      <GPU_RotationVelocity>0</GPU_RotationVelocity>
+      <GPU_RotationVelocityVar>0</GPU_RotationVelocityVar>
+      <GPU_Life>0</GPU_Life>
+      <GPU_StreakMultiplier>0</GPU_StreakMultiplier>
+      <GPU_AnimationFrameTime>0</GPU_AnimationFrameTime>
+      <GPU_ParticlesPerFrame />
+      <GPU_ParticlesPerSecond />
+      <GPU_OITWeightFactor>0</GPU_OITWeightFactor>
+      <GPU_TargetCoverage>0</GPU_TargetCoverage>
+      <GPU_Thickness />
+      <GPU_Streaks>false</GPU_Streaks>
+      <GPU_Collide>false</GPU_Collide>
+      <GPU_SleepState>false</GPU_SleepState>
+      <GPU_Light>false</GPU_Light>
+      <GPU_VolumetricLight>false</GPU_VolumetricLight>
+    </Emitter>
+    <Emitter Enabled="true" Name="Sparks" Generation="GPU" Type="Point">
+      <Birth />
+      <BirthVar>0</BirthVar>
+      <BirthPerFrame />
+      <Life />
+      <LifeVar>0</LifeVar>
+      <Velocity />
+      <VelocityDir>Default</VelocityDir>
+      <VelocityVar>
+        <Key Time="0">
+          <Value>0.5</Value>
+        </Key>
+      </VelocityVar>
+      <Angle>
+        <Key Time="0">
+          <Value x="0" y="0" z="0" />
+        </Key>
+      </Angle>
+      <AngleVar x="0" y="0" z="0" />
+      <RotationSpeed />
+      <RotationSpeedVar x="0" y="0" z="0" />
+      <Radius>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>0.01</Value>
+            </Key>
+            <Key Time="1">
+              <Value>0.0025</Value>
+            </Key>
+          </Value>
+        </Key>
+      </Radius>
+      <RadiusVar />
+      <RadiusBySpeed>0</RadiusBySpeed>
+      <Color>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>
+                <PackedValue>4280643474</PackedValue>
+                <X>146</X>
+                <Y>111</Y>
+                <Z>37</Z>
+                <R>146</R>
+                <G>111</G>
+                <B>37</B>
+                <A>255</A>
+              </Value>
+            </Key>
+            <Key Time="0.328877">
+              <Value>
+                <PackedValue>4278243839</PackedValue>
+                <X>255</X>
+                <Y>209</Y>
+                <Z>0</Z>
+                <R>255</R>
+                <G>209</G>
+                <B>0</B>
+                <A>255</A>
+              </Value>
+            </Key>
+            <Key Time="0.66">
+              <Value>
+                <PackedValue>4278261957</PackedValue>
+                <X>197</X>
+                <Y>24</Y>
+                <Z>1</Z>
+                <R>197</R>
+                <G>24</G>
+                <B>1</B>
+                <A>255</A>
+              </Value>
+            </Key>
+            <Key Time="1">
+              <Value>
+                <PackedValue>0</PackedValue>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                <R>0</R>
+                <G>0</G>
+                <B>0</B>
+                <A>0</A>
+              </Value>
+            </Key>
+          </Value>
+        </Key>
+      </Color>
+      <ColorVar />
+      <ColorIntensity />
+      <Material />
+      <ParticleType>Point</ParticleType>
+      <Thickness />
+      <BlendTextures>false</BlendTextures>
+      <EnableCustomRadius>false</EnableCustomRadius>
+      <EnableCustomBirth>false</EnableCustomBirth>
+      <OnDie>0</OnDie>
+      <OnLife>0</OnLife>
+      <LODBirth />
+      <LODRadius />
+      <MotionInheritance>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </MotionInheritance>
+      <UseLayerSorting>false</UseLayerSorting>
+      <SortLayer>0</SortLayer>
+      <AlphaAnisotropic>false</AlphaAnisotropic>
+      <Gravity>-0.1</Gravity>
+      <PivotRotation />
+      <Acceleration />
+      <AccelerationVar>0</AccelerationVar>
+      <AlphaCutout />
+      <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
+      <Pivot />
+      <PivotVar x="0" y="0" z="0" />
+      <PivorRotationVar x="0" y="0" z="0" />
+      <RotationReference>Camera</RotationReference>
+      <ArraySize x="16" y="16" z="0" />
+      <ArrayIndex />
+      <ArrayOffset>29</ArrayOffset>
+      <ArrayModulo>1</ArrayModulo>
+      <AccelerationReference>Local</AccelerationReference>
+      <Offset />
+      <Rotation />
+      <AxisScale x="0" y="0" z="0" />
+      <Size />
+      <RadiusMin>0</RadiusMin>
+      <RadiusMax>0</RadiusMax>
+      <DirToCamera>false</DirToCamera>
+      <LimitAngle />
+      <GPU_ColorIntensity>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>10</Value>
+            </Key>
+            <Key Time="0.6800357">
+              <Value>8</Value>
+            </Key>
+            <Key Time="0.885918">
+              <Value>5</Value>
+            </Key>
+            <Key Time="1">
+              <Value>1</Value>
+            </Key>
+          </Value>
+        </Key>
+      </GPU_ColorIntensity>
+      <GPU_ColorVar>0.2</GPU_ColorVar>
+      <GPU_HueVar>0</GPU_HueVar>
+      <GPU_Bounciness>0.5</GPU_Bounciness>
+      <GPU_EmitterSize>
+        <Key Time="0">
+          <Value>
+            <X>0.1</X>
+            <Y>0.1</Y>
+            <Z>0.1</Z>
+          </Value>
+        </Key>
+      </GPU_EmitterSize>
+      <GPU_EmitterSizeMin>
+        <Key Time="0">
+          <Value>0.01</Value>
+        </Key>
+      </GPU_EmitterSizeMin>
+      <GPU_Offset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.05</Z>
+      </GPU_Offset>
+      <GPU_Direction>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </GPU_Direction>
+      <GPU_Velocity>
+        <Key Time="0">
+          <Value>0.1</Value>
+        </Key>
+      </GPU_Velocity>
+      <GPU_DirectionCone>
+        <Key Time="0">
+          <Value>30</Value>
+        </Key>
+      </GPU_DirectionCone>
+      <GPU_DirectionConeInner>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </GPU_DirectionConeInner>
+      <GPU_Acceleration>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </GPU_Acceleration>
+      <GPU_RotationEnabled>false</GPU_RotationEnabled>
+      <GPU_RotationVelocity>10</GPU_RotationVelocity>
+      <GPU_RotationVelocityVar>0</GPU_RotationVelocityVar>
+      <GPU_Life>1</GPU_Life>
+      <GPU_StreakMultiplier>7</GPU_StreakMultiplier>
+      <GPU_AnimationFrameTime>1</GPU_AnimationFrameTime>
+      <GPU_ParticlesPerFrame />
+      <GPU_ParticlesPerSecond>
+        <Key Time="0">
+          <Value>2</Value>
+        </Key>
+      </GPU_ParticlesPerSecond>
+      <GPU_Material>Atlas_A_01</GPU_Material>
+      <GPU_OITWeightFactor>1</GPU_OITWeightFactor>
+      <GPU_TargetCoverage>0</GPU_TargetCoverage>
+      <GPU_Thickness>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>1</Value>
+            </Key>
+            <Key Time="1">
+              <Value>1</Value>
+            </Key>
+          </Value>
+        </Key>
+      </GPU_Thickness>
+      <GPU_Streaks>false</GPU_Streaks>
+      <GPU_Collide>false</GPU_Collide>
+      <GPU_SleepState>false</GPU_SleepState>
+      <GPU_Light>true</GPU_Light>
+      <GPU_VolumetricLight>false</GPU_VolumetricLight>
+    </Emitter>
+    <Emitter Enabled="true" Name="Smoke" Generation="GPU" Type="Point">
+      <Birth />
+      <BirthVar>0</BirthVar>
+      <BirthPerFrame />
+      <Life />
+      <LifeVar>0</LifeVar>
+      <Velocity />
+      <VelocityDir>Default</VelocityDir>
+      <VelocityVar>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </VelocityVar>
+      <Angle>
+        <Key Time="0">
+          <Value x="0" y="0" z="0" />
+        </Key>
+      </Angle>
+      <AngleVar x="0" y="0" z="0" />
+      <RotationSpeed />
+      <RotationSpeedVar x="0" y="0" z="0" />
+      <Radius>
+        <Key Time="0">
+          <Value>
+            <Key Time="0.0005227392">
+              <Value>0.7</Value>
+            </Key>
+            <Key Time="0.461055934">
+              <Value>0.8</Value>
+            </Key>
+            <Key Time="1">
+              <Value>0.9</Value>
+            </Key>
+          </Value>
+        </Key>
+      </Radius>
+      <RadiusVar />
+      <RadiusBySpeed>0</RadiusBySpeed>
+      <Color>
+        <Key Time="0">
+          <Value>
+            <Key Time="0.003659174">
+              <Value>
+                <PackedValue>922746880</PackedValue>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                <R>0</R>
+                <G>0</G>
+                <B>0</B>
+                <A>55</A>
+              </Value>
+            </Key>
+            <Key Time="0.9937271">
+              <Value>
+                <PackedValue>924523295</PackedValue>
+                <X>31</X>
+                <Y>27</Y>
+                <Z>27</Z>
+                <R>31</R>
+                <G>27</G>
+                <B>27</B>
+                <A>55</A>
+              </Value>
+            </Key>
+          </Value>
+        </Key>
+      </Color>
+      <ColorVar />
+      <ColorIntensity />
+      <Material />
+      <ParticleType>Point</ParticleType>
+      <Thickness />
+      <BlendTextures>false</BlendTextures>
+      <EnableCustomRadius>false</EnableCustomRadius>
+      <EnableCustomBirth>false</EnableCustomBirth>
+      <OnDie>0</OnDie>
+      <OnLife>0</OnLife>
+      <LODBirth />
+      <LODRadius />
+      <MotionInheritance>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </MotionInheritance>
+      <UseLayerSorting>false</UseLayerSorting>
+      <SortLayer>0</SortLayer>
+      <AlphaAnisotropic>false</AlphaAnisotropic>
+      <Gravity>-.05</Gravity>
+      <PivotRotation />
+      <Acceleration />
+      <AccelerationVar>0</AccelerationVar>
+      <AlphaCutout />
+      <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
+      <Pivot />
+      <PivotVar x="0" y="0" z="0" />
+      <PivorRotationVar x="0" y="0" z="0" />
+      <RotationReference>Camera</RotationReference>
+      <ArraySize x="8" y="8" z="0" />
+      <ArrayIndex />
+      <ArrayOffset>45</ArrayOffset>
+      <ArrayModulo>1</ArrayModulo>
+      <AccelerationReference>Local</AccelerationReference>
+      <Offset />
+      <Rotation />
+      <AxisScale x="0" y="0" z="0" />
+      <Size />
+      <RadiusMin>0</RadiusMin>
+      <RadiusMax>0</RadiusMax>
+      <DirToCamera>false</DirToCamera>
+      <LimitAngle />
+      <GPU_ColorIntensity>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>75</Value>
+            </Key>
+            <Key Time="0.9968636">
+              <Value>0</Value>
+            </Key>
+          </Value>
+        </Key>
+      </GPU_ColorIntensity>
+      <GPU_ColorVar>0</GPU_ColorVar>
+      <GPU_HueVar>0</GPU_HueVar>
+      <GPU_Bounciness>0.5</GPU_Bounciness>
+      <GPU_EmitterSize>
+        <Key Time="0">
+          <Value>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Value>
+        </Key>
+      </GPU_EmitterSize>
+      <GPU_EmitterSizeMin>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </GPU_EmitterSizeMin>
+      <GPU_Offset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </GPU_Offset>
+      <GPU_Direction>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </GPU_Direction>
+      <GPU_Velocity>
+        <Key Time="0">
+          <Value>0.2</Value>
+        </Key>
+      </GPU_Velocity>
+      <GPU_DirectionCone>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </GPU_DirectionCone>
+      <GPU_DirectionConeInner>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </GPU_DirectionConeInner>
+      <GPU_Acceleration>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </GPU_Acceleration>
+      <GPU_RotationEnabled>true</GPU_RotationEnabled>
+      <GPU_RotationVelocity>0.5</GPU_RotationVelocity>
+      <GPU_RotationVelocityVar>-0.5</GPU_RotationVelocityVar>
+      <GPU_Life>3</GPU_Life>
+      <GPU_StreakMultiplier>4</GPU_StreakMultiplier>
+      <GPU_AnimationFrameTime>0</GPU_AnimationFrameTime>
+      <GPU_ParticlesPerFrame />
+      <GPU_ParticlesPerSecond>
+        <Key Time="0">
+          <Value>25</Value>
+        </Key>
+        <Key Time="1.02889359">
+          <Value>0</Value>
+        </Key>
+      </GPU_ParticlesPerSecond>
+      <GPU_Material>Atlas_B_01</GPU_Material>
+      <GPU_OITWeightFactor>1</GPU_OITWeightFactor>
+      <GPU_TargetCoverage>1</GPU_TargetCoverage>
+      <GPU_Thickness>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>1</Value>
+            </Key>
+            <Key Time="0.33">
+              <Value>1</Value>
+            </Key>
+            <Key Time="0.66">
+              <Value>1</Value>
+            </Key>
+            <Key Time="1">
+              <Value>1</Value>
+            </Key>
+          </Value>
+        </Key>
+      </GPU_Thickness>
+      <GPU_Streaks>false</GPU_Streaks>
+      <GPU_Collide>false</GPU_Collide>
+      <GPU_SleepState>false</GPU_SleepState>
+      <GPU_Light>false</GPU_Light>
+      <GPU_VolumetricLight>false</GPU_VolumetricLight>
+    </Emitter>
+    <Emitter Enabled="false" Name="Smoke" Generation="GPU" Type="Point">
+      <Birth />
+      <BirthVar>0</BirthVar>
+      <BirthPerFrame />
+      <Life />
+      <LifeVar>0</LifeVar>
+      <Velocity />
+      <VelocityDir>Default</VelocityDir>
+      <VelocityVar>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </VelocityVar>
+      <Angle>
+        <Key Time="0">
+          <Value x="0" y="0" z="0" />
+        </Key>
+      </Angle>
+      <AngleVar x="0" y="0" z="0" />
+      <RotationSpeed />
+      <RotationSpeedVar x="0" y="0" z="0" />
+      <Radius>
+        <Key Time="0">
+          <Value>
+            <Key Time="0.0005227392">
+              <Value>0.7</Value>
+            </Key>
+            <Key Time="0.461055934">
+              <Value>0.8</Value>
+            </Key>
+            <Key Time="1">
+              <Value>0.9</Value>
+            </Key>
+          </Value>
+        </Key>
+      </Radius>
+      <RadiusVar />
+      <RadiusBySpeed>0</RadiusBySpeed>
+      <Color>
+        <Key Time="0">
+          <Value>
+            <Key Time="0.003659174">
+              <Value>
+                <PackedValue>922746880</PackedValue>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                <R>0</R>
+                <G>0</G>
+                <B>0</B>
+                <A>55</A>
+              </Value>
+            </Key>
+            <Key Time="0.9937271">
+              <Value>
+                <PackedValue>924523295</PackedValue>
+                <X>31</X>
+                <Y>27</Y>
+                <Z>27</Z>
+                <R>31</R>
+                <G>27</G>
+                <B>27</B>
+                <A>55</A>
+              </Value>
+            </Key>
+          </Value>
+        </Key>
+      </Color>
+      <ColorVar />
+      <ColorIntensity />
+      <Material />
+      <ParticleType>Point</ParticleType>
+      <Thickness />
+      <BlendTextures>false</BlendTextures>
+      <EnableCustomRadius>false</EnableCustomRadius>
+      <EnableCustomBirth>false</EnableCustomBirth>
+      <OnDie>0</OnDie>
+      <OnLife>0</OnLife>
+      <LODBirth />
+      <LODRadius />
+      <MotionInheritance>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </MotionInheritance>
+      <UseLayerSorting>false</UseLayerSorting>
+      <SortLayer>0</SortLayer>
+      <AlphaAnisotropic>false</AlphaAnisotropic>
+      <Gravity>-.03</Gravity>
+      <PivotRotation />
+      <Acceleration />
+      <AccelerationVar>0</AccelerationVar>
+      <AlphaCutout />
+      <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
+      <Pivot />
+      <PivotVar x="0" y="0" z="0" />
+      <PivorRotationVar x="0" y="0" z="0" />
+      <RotationReference>Camera</RotationReference>
+      <ArraySize x="8" y="8" z="0" />
+      <ArrayIndex />
+      <ArrayOffset>45</ArrayOffset>
+      <ArrayModulo>1</ArrayModulo>
+      <AccelerationReference>Local</AccelerationReference>
+      <Offset />
+      <Rotation />
+      <AxisScale x="0" y="0" z="0" />
+      <Size />
+      <RadiusMin>0</RadiusMin>
+      <RadiusMax>0</RadiusMax>
+      <DirToCamera>false</DirToCamera>
+      <LimitAngle />
+      <GPU_ColorIntensity>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>75</Value>
+            </Key>
+            <Key Time="0.9968636">
+              <Value>0</Value>
+            </Key>
+          </Value>
+        </Key>
+      </GPU_ColorIntensity>
+      <GPU_ColorVar>0</GPU_ColorVar>
+      <GPU_HueVar>0</GPU_HueVar>
+      <GPU_Bounciness>0.5</GPU_Bounciness>
+      <GPU_EmitterSize>
+        <Key Time="0">
+          <Value>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </Value>
+        </Key>
+      </GPU_EmitterSize>
+      <GPU_EmitterSizeMin>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </GPU_EmitterSizeMin>
+      <GPU_Offset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </GPU_Offset>
+      <GPU_Direction>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </GPU_Direction>
+      <GPU_Velocity>
+        <Key Time="0">
+          <Value>0.2</Value>
+        </Key>
+      </GPU_Velocity>
+      <GPU_DirectionCone>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </GPU_DirectionCone>
+      <GPU_DirectionConeInner>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </GPU_DirectionConeInner>
+      <GPU_Acceleration>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </GPU_Acceleration>
+      <GPU_RotationEnabled>true</GPU_RotationEnabled>
+      <GPU_RotationVelocity>-0.5</GPU_RotationVelocity>
+      <GPU_RotationVelocityVar>0.5</GPU_RotationVelocityVar>
+      <GPU_Life>3</GPU_Life>
+      <GPU_StreakMultiplier>4</GPU_StreakMultiplier>
+      <GPU_AnimationFrameTime>0</GPU_AnimationFrameTime>
+      <GPU_ParticlesPerFrame />
+      <GPU_ParticlesPerSecond>
+        <Key Time="0">
+          <Value>5</Value>
+        </Key>
+        <Key Time="1.02889359">
+          <Value>0</Value>
+        </Key>
+      </GPU_ParticlesPerSecond>
+      <GPU_Material>Atlas_B_01</GPU_Material>
+      <GPU_OITWeightFactor>1</GPU_OITWeightFactor>
+      <GPU_TargetCoverage>1</GPU_TargetCoverage>
+      <GPU_Thickness>
+        <Key Time="0">
+          <Value>
+            <Key Time="0">
+              <Value>1</Value>
+            </Key>
+            <Key Time="0.33">
+              <Value>1</Value>
+            </Key>
+            <Key Time="0.66">
+              <Value>1</Value>
+            </Key>
+            <Key Time="1">
+              <Value>1</Value>
+            </Key>
+          </Value>
+        </Key>
+      </GPU_Thickness>
+      <GPU_Streaks>false</GPU_Streaks>
+      <GPU_Collide>false</GPU_Collide>
+      <GPU_SleepState>false</GPU_SleepState>
+      <GPU_Light>false</GPU_Light>
+      <GPU_VolumetricLight>false</GPU_VolumetricLight>
+    </Emitter>
+    <Light Enabled="false" Name="ParticleLight">
+      <Position />
+      <PositionVar>
+        <Key Time="0">
+          <Value x="0" y="0" z="0" />
+        </Key>
+        <Key Time="0.7177033">
+          <Value x="0.35" y="0.3" z="0.3" />
+        </Key>
+      </PositionVar>
+      <Color>
+        <Key Time="0">
+          <Value>
+            <PackedValue>4280397055</PackedValue>
+            <X>255</X>
+            <Y>172</Y>
+            <Z>33</Z>
+            <R>255</R>
+            <G>172</G>
+            <B>33</B>
+            <A>255</A>
+          </Value>
+        </Key>
+      </Color>
+      <ColorVar>
+        <Key Time="0">
+          <Value>0</Value>
+        </Key>
+      </ColorVar>
+      <Range>
+        <Key Time="0">
+          <Value>7</Value>
+        </Key>
+      </Range>
+      <RangeVar />
+      <Intensity>
+        <Key Time="0">
+          <Value>4</Value>
+        </Key>
+      </Intensity>
+      <IntensityVar>
+        <Key Time="0">
+          <Value>1</Value>
+        </Key>
+      </IntensityVar>
+    </Light>
+  </Definition>
+</Definitions>

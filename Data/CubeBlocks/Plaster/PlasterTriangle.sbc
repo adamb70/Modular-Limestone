@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+  <!--Stone Triangle-->
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="Plaster Triangle" />
+    <DisplayName>Plaster Triangle Left</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterTriangle.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterTriangle_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfStoneTriangle_Construction_1.mwm" />
+    </BuildProgressModels>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="2" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <MountPoints>
+      <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.2" />
+      <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="1.0" />
+      <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.3" EndY="0.2" />
+      <MountPoint Side="Front" StartX="0.3" StartY="0" EndX="0.7" EndY="0.55" />
+      <MountPoint Side="Front" StartX="0.7" StartY="0" EndX="1" EndY="0.90" />
+    </MountPoints>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <CompoundTemplates>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>5000</MaxIntegrity>
+    <UseModelIntersection>true</UseModelIntersection>
+    <BlockGroupName>PlasterTriangle</BlockGroupName>
+    <BlockVariants>
+      <BlockVariant>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>PlasterTriangleMirror</SubtypeId>
+      </BlockVariant>
+    </BlockVariants>
+  </Definition>
+
+  <!--Stone Triangle-->
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterTriangleMirror" />
+    <DisplayName>Plaster Triangle Right</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterTriangleMirror.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterTriangleMirror_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\HouseHalfStoneTriangleMir_Construction_1.mwm" />
+    </BuildProgressModels>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="2" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <MountPoints>
+      <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.2" />
+      <MountPoint Side="Right" StartX="1.0324" StartY="-0.03239994" EndX="0.7676" EndY="1.0324" />
+      <MountPoint Side="Front" StartX="0.7" StartY="0" EndX="1" EndY="0.2" />
+      <MountPoint Side="Front" StartX="0.3" StartY="0" EndX="0.7" EndY="0.55" />
+      <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.3" EndY="0.90" />
+    </MountPoints>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <CompoundTemplates>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>2500</MaxIntegrity>
+    <UseModelIntersection>true</UseModelIntersection>
+    <GuiVisible>false</GuiVisible>
+  </Definition>
+
+
+
+
+</Definitions>

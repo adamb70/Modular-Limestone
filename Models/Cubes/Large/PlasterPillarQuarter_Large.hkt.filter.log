@@ -1,0 +1,13 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Alex\AppData\Local\Temp\space_engineers_whwwpknf.hko -p C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\PlasterWall\Models\Cubes\Large\PlasterPillarQuarter_Large.hkt C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\PlasterWall\Models\Cubes\Large\PlasterPillarQuarter_Large.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Fri Sep 28 23:46:59 2018, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        [0xabbabfd2] Warning : 'Collision.001' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\PlasterWall\Models\Cubes\Large\PlasterPillarQuarter_Large.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 1 Warnings ==========

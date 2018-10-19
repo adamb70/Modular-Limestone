@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Alex\AppData\Local\Temp\space_engineers_8su5xmjg.hko -p C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\Modular Limestone\Models\Cubes\Large\PlasterWallDiagonalMiddle_Large.hkt C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\Modular Limestone\Models\Cubes\Large\PlasterWallDiagonalMiddle_Large.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Thu Oct 11 20:15:32 2018, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Alex\AppData\Roaming\MedievalEngineers\Mods\Modular Limestone\Models\Cubes\Large\PlasterWallDiagonalMiddle_Large.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

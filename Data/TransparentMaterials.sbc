@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <Definition xsi:type="MyObjectBuilder_TransparentMaterialDefinition">
+    <Id Type="TransparentMaterialDefinition" Subtype="LimeKilnWater" />      
+      <AlphaMistingEnable>true</AlphaMistingEnable>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
+	  <AlphaSaturation>1</AlphaSaturation>
+      <Emissivity>0.0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\LimeKilnWater.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+	  <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>0.80</X>
+        <Y>0.80</Y>
+		<Z>0.80</Z>
+		<W>0.80</W>
+      </Color>
+      <ColorAdd>
+        <X>0.00</X>
+        <Y>0.00</Y>
+		<Z>0.00</Z>
+		<W>0.00</W>
+      </ColorAdd>
+      <ShadowMultiplier>
+        <X>0.05</X>
+        <Y>0.05</Y>
+		<Z>0.05</Z>
+		<W>0.05</W>
+      </ShadowMultiplier>
+      <Fresnel>0.50</Fresnel>
+      <Reflectivity>0.02</Reflectivity>
+   </Definition>
+
+</Definitions>

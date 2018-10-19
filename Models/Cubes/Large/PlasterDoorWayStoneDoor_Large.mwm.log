@@ -1,0 +1,27 @@
+Running from: C:\Users\Alex\AppData\Local\Temp\tmp03wmy9zm 
+Command: D:\Games\Steam\steamapps\common\MedievalEngineersModSDK\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:PlasterDoorWayStoneDoor_Large.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Models\Cubes\Large\PlasterDoorWayStoneDoor_Large_LOD3: WARNING: 
+    LOD model is missing
+Textures\Models\Cubes\block_sheet_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\block_sheet_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\block_sheet_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\TexturesCom_Stucco2_2x2_1024_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\TexturesCom_Stucco2_2x2_1024_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\TexturesCom_Stucco2_2x2_1024_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\granite-grey_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\granite-grey_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\granite-grey_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+C:\Users\Alex\AppData\Local\Temp\tmp03wmy9zm\Content\PlasterDoorWayStoneDoor_Large.fbx: Processed
+: 
+    : Finished in 0.2s

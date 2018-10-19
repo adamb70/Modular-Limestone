@@ -1,0 +1,7 @@
+Running from: C:\Users\Alex\AppData\Local\Temp\tmpd33watfj 
+Command: D:\Games\Steam\steamapps\common\MedievalEngineersModSDK\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:LimeKilnMulti_Large.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+C:\Users\Alex\AppData\Local\Temp\tmpd33watfj\Content\LimeKilnMulti_Large.fbx: Processed
+: 
+    : Finished in 0.2s

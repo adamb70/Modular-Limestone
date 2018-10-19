@@ -1,0 +1,31 @@
+Running from: C:\Users\Alex\AppData\Local\Temp\tmpvqija1n6 
+Command: D:\Games\Steam\steamapps\common\MedievalEngineersModSDK\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:LimePlaster_Small_LOD1.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Items\wood_03_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Items\wood_03_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Items\wood_03_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Items\wood_07_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Items\wood_07_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Items\wood_07_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Items\metal_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Items\metal_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Items\metal_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Items\Plaster_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Items\Plaster_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Items\Plaster_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+C:\Users\Alex\AppData\Local\Temp\tmpvqija1n6\Content\LimePlaster_Small_LOD1.fbx: Processed
+: 
+    : Finished in 0.2s

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>PlasterPillarMiddle_Large</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\PlasterPillarMiddle.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Large\PlasterPillarMiddle_Large.mwm</Model>
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PlasterPillarMiddle_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<BlockPairName>PlasterPillarMiddle</BlockPairName>
+</Definition>

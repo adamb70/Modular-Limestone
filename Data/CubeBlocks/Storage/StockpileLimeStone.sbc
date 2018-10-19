@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="MyObjectBuilder_InventoryComponentDefinition" Merge="Overwrite">
+    <Id Type="Inventory" Subtype="StockpileStone" />
+    <MaxItemCount>33</MaxItemCount>
+    <MultiplierEnabled>false</MultiplierEnabled>
+    <SupportsAreaInventory>true</SupportsAreaInventory>
+    <Constraint xsi:type="MyObjectBuilder_ItemTypeConstraint" Whitelist="true">
+      <Id Type="InventoryItem" Subtype="StoneLarge" />
+      <Id Type="InventoryItem" Subtype="StoneSmall" />
+      <Id Type="InventoryItem" Subtype="LimeStoneLarge" />
+      <Id Type="InventoryItem" Subtype="LimeStoneSmall" />
+    </Constraint>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_InventoryComponentDefinition" Merge="Overwrite">
+    <Id Type="Inventory" Subtype="StockpileStoneSmall" />
+    <MaxItemCount>17</MaxItemCount>
+    <MultiplierEnabled>false</MultiplierEnabled>
+    <SupportsAreaInventory>true</SupportsAreaInventory>
+    <Constraint xsi:type="MyObjectBuilder_ItemTypeConstraint" Whitelist="true">
+      <Id Type="InventoryItem" Subtype="StoneLarge" />
+      <Id Type="InventoryItem" Subtype="StoneSmall" />
+      <Id Type="InventoryItem" Subtype="LimeStoneLarge" />
+      <Id Type="InventoryItem" Subtype="LimeStoneSmall" />
+    </Constraint>
+  </Definition>
+
+</Definitions>

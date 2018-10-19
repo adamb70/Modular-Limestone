@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>LimeStoneLarge_6_Small</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\LimeStoneLarge_6.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Environment\Rocks\LimeStoneLarge_6_Small.mwm</Model>
+	<BlockPairName>LimeStoneLarge_6</BlockPairName>
+</Definition>

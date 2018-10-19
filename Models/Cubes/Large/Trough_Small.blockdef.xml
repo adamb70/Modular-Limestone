@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>Trough_Small</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\Trough.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="3" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Large\Trough_Small.mwm</Model>
+	<BlockPairName>Trough</BlockPairName>
+</Definition>

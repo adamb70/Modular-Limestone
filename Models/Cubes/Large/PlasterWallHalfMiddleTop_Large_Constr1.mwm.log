@@ -1,0 +1,9 @@
+Running from: C:\Users\Alex\AppData\Local\Temp\tmpfknjdywv 
+Command: D:\Games\Steam\steamapps\common\MedievalEngineersModSDK\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:PlasterWallHalfMiddleTop_Large_Constr1.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Dummy.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+C:\Users\Alex\AppData\Local\Temp\tmpfknjdywv\Content\PlasterWallHalfMiddleTop_Large_Constr1.fbx: Processed
+: 
+    : Finished in 0.2s

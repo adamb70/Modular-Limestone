@@ -1,0 +1,57 @@
+Running from: C:\Users\Alex\AppData\Local\Temp\tmpj1ibhtoe 
+Command: D:\Games\Steam\steamapps\common\MedievalEngineersModSDK\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:LimeKilnTrough_Large.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Woods\SemiRoughPlanksFloor_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Woods\SemiRoughPlanksFloor_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Woods\SemiRoughPlanksFloor_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\TexturesCom_BoulderBaseMossy_2x2_1024_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\TexturesCom_BoulderBaseMossy_2x2_1024_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\TexturesCom_BoulderBaseMossy_2x2_1024_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\Wood_plancks_004_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\Wood_plancks_004_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\Wood_plancks_004_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\TexturesCom_Wood_Rough_1K_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\TexturesCom_Wood_Rough_1K_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\TexturesCom_Wood_Rough_1K_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\block_sheet_de.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\block_sheet_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\block_sheet_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\block_sheet_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\block_sheet_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\block_sheet_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\block_sheet_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Weapons\Shovel_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Weapons\Shovel_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Weapons\Shovel_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\RoughWood_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\RoughWood_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\RoughWood_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+C:\Users\Alex\AppData\Local\Temp\tmpj1ibhtoe\Content\LimeKilnTrough_Large.fbx: Processed
+: 
+    : Finished in 0.2s

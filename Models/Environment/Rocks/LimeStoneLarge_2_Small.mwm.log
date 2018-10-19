@@ -1,0 +1,17 @@
+Running from: C:\Users\Alex\AppData\Local\Temp\tmp31mf04k9 
+Command: D:\Games\Steam\steamapps\common\MedievalEngineersModSDK\Tools\VRageEditor\Plugins\ModelBuilder\MwmBuilder.exe /s:Content /m:LimeStoneLarge_2_Small.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Models\Environment\Rocks\LimeStoneLarge_2_Small_LOD1: WARNING: 
+    LOD model is missing
+Models\Environment\Rocks\LimeStoneLarge_2_Small_LOD2: WARNING: 
+    LOD model is missing
+Textures\Voxels\Limestone_cm.DDS: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Voxels\Limestone_ng.DDS: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Voxels\Limestone_add.DDS: WARNING: 
+    Texture AddMapsTexture does not exists!
+C:\Users\Alex\AppData\Local\Temp\tmp31mf04k9\Content\LimeStoneLarge_2_Small.fbx: Processed
+: 
+    : Finished in 0.1s

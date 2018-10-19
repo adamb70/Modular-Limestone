@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="VR.PhysicalModelDefinition">
+    <Id Type="PhysicalModelDefinition" Subtype="SingleLimeStone1" />
+    <Model>Models\Environment\Rocks\LimeStoneSmall_1.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+  </Definition>
+
+  <Definition xsi:type="VR.PhysicalModelDefinition">
+    <Id Type="PhysicalModelDefinition" Subtype="SingleLimeStone1v2" />
+    <Model>Models\Environment\Rocks\LimeStoneSmall_1v2.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+  </Definition>
+
+  <Definition xsi:type="VR.PhysicalModelDefinition">
+    <Id Type="PhysicalModelDefinition" Subtype="SingleLimeStone1v3" />
+    <Model>Models\Environment\Rocks\LimeStoneSmall_1v3.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+  </Definition>
+
+  <Definition xsi:type="VR.PhysicalModelDefinition">
+    <Id Type="PhysicalModelDefinition" Subtype="SingleLimeStone2" />
+    <Model>Models\Environment\Rocks\LimeStoneSmall_2.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+  </Definition>
+
+  <Definition xsi:type="VR.PhysicalModelDefinition">
+    <Id Type="PhysicalModelDefinition" Subtype="SingleLimeStone2v2" />
+    <Model>Models\Environment\Rocks\LimeStoneSmall_2v2.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+  </Definition>
+
+  <Definition xsi:type="VR.PhysicalModelDefinition">
+    <Id Type="PhysicalModelDefinition" Subtype="SingleLimeStone3" />
+    <Model>Models\Environment\Rocks\LimeStoneSmall_3.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+  </Definition>
+
+  <Definition xsi:type="VR.PhysicalModelDefinition">
+    <Id Type="PhysicalModelDefinition" Subtype="SingleLimeStone4" />
+    <Model>Models\Environment\Rocks\LimeStoneSmall_4.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+  </Definition>
+
+  <Definition xsi:type="VR.PhysicalModelDefinition">
+    <Id Type="PhysicalModelDefinition" Subtype="SingleLimeStone4v2" />
+    <Model>Models\Environment\Rocks\LimeStoneSmall_4v2.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+  </Definition>
+
+</Definitions>

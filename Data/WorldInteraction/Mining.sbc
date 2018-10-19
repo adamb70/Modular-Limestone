@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Volume 64 = 1 dirt -->
+
+  <Definition xsi:type="MyObjectBuilder_VoxelMiningDefinition">
+    <Id Type="VoxelMiningDefinition" Subtype="Shovel" />
+    
+    <Entry VoxelMaterial="Sand" Volume="256">
+      <MinedItem Type="InventoryItem" Subtype="LimeSand" Amount="1" />
+    </Entry>
+
+  </Definition>
+  
+  <!-- PICKAXE -->
+  
+  <Definition xsi:type="MyObjectBuilder_VoxelMiningDefinition">
+    <Id Type="VoxelMiningDefinition" Subtype="Pickaxe" />
+
+    <Entry VoxelMaterial="Limestone" Volume="256">
+      <MinedItem Type="InventoryItem" Subtype="LimeStoneLarge" Amount="1" />
+    </Entry>
+    
+    <Entry VoxelMaterial="Sand" Volume="256">
+      <MinedItem Type="InventoryItem" Subtype="LimeSand" Amount="1" />
+    </Entry>
+
+  </Definition>
+</Definitions>

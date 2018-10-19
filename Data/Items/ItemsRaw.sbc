@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Type="InventoryItem" Subtype="LimeStoneSmall" />
+    <Public>true</Public>
+    <DisplayName>Small Limestone</DisplayName>
+    <Tag>StoneSmall</Tag>
+    <Description>Limestone is a sedimentary rock, composed mainly of skeletal fragments of marine organisms such as coral, forams and molluscs. 
+    Its major materials are the minerals calcite and aragonite, which are different crystal forms of calcium carbonate (CaCO3).
+    Small limestone is aquired by breaking apart large stones or limestones.</Description>
+    <Icon>Textures\GUI\Icons\Materials\LimeStoneSmall.dds</Icon>
+    <Size>
+      <X>0.2</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+    </Size>
+    <Model>Models\Environment\Rocks\LimeStoneSmall_1_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneSmall_1v2_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneSmall_1v3_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneSmall_2_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneSmall_2v2_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneSmall_3_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneSmall_4_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneSmall_4v2_small.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Mass>5</Mass>
+    <MaxStackAmount>25</MaxStackAmount>
+    <Health>10</Health>
+  </Definition>
+
+   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Type="InventoryItem" Subtype="LimeStoneLarge" />
+    <DisplayName>Large Limestone</DisplayName>
+    <Tag>StoneLarge</Tag>
+    <Description>Limestone is a sedimentary rock, composed mainly of skeletal fragments of marine organisms such as coral, forams and molluscs. 
+    Its major materials are the minerals calcite and aragonite, which are different crystal forms of calcium carbonate (CaCO3).
+    Large limestone can be gathered from limestone deposits in karst regions.</Description>
+    <Icon>Textures\GUI\Icons\Materials\LimeStoneLarge.dds</Icon>
+    <Size>
+      <X>0.25</X>
+      <Y>0.25</Y>
+      <Z>0.25</Z>
+    </Size>
+    <Mass>150</Mass>
+    <Model>Models\Environment\Rocks\LimeStoneLarge_1_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneLarge_2_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneLarge_3_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneLarge_4_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneLarge_5_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneLarge_6_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneLarge_7_small.mwm</Model>
+    <Model>Models\Environment\Rocks\LimeStoneLarge_8_small.mwm</Model>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <MaxStackAmount>5</MaxStackAmount>
+    <Health>52</Health>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition" Merge="Append">
+    <Id Type="InventoryItem" Subtype="StoneLarge" />
+    <Tag>StoneLarge</Tag>
+  </Definition>
+
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition" Merge="Append">
+    <Id Type="InventoryItem" Subtype="StoneSmall" />
+    <Tag>StoneSmall</Tag>
+  </Definition>
+  
+</Definitions>

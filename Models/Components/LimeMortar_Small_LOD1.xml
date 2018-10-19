@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model Name="LimeMortar">
+	<Parameter Name="RescaleFactor">0.01</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="SpecularPower">0.0</Parameter>
+	<Parameter Name="SpecularShininess">0.0</Parameter>
+	<Material Name="mat_wood_03">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<!--material has no DiffuseTexture-->
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Items\wood_03_cm.DDS</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Items\wood_03_ng.DDS</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Items\wood_03_add.DDS</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="mat_wood_07">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<!--material has no DiffuseTexture-->
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Items\wood_07_cm.DDS</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Items\wood_07_ng.DDS</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Items\wood_07_add.DDS</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="mat_metal">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<!--material has no DiffuseTexture-->
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Items\metal_cm.DDS</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Items\metal_ng.DDS</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Items\metal_add.DDS</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Mortar">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<!--material has no DiffuseTexture-->
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Items\Mortar_cm.DDS</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Items\Mortar_ng.DDS</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Items\Mortar_add.DDS</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+</Model>

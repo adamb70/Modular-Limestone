@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="VR.PhysicalModelCollectionDefinition">
+    <Id Type="PhysicalModelCollectionDefinition" Subtype="SingleLimeStone" />
+    <Items>
+      <Item TypeId="PhysicalModelDefinition" SubtypeId="SingleLimeStone1" Weight="1" />
+      <Item TypeId="PhysicalModelDefinition" SubtypeId="SingleLimeStone1v2" Weight="1" />
+      <Item TypeId="PhysicalModelDefinition" SubtypeId="SingleLimeStone1v3" Weight="1" />
+      <Item TypeId="PhysicalModelDefinition" SubtypeId="SingleLimeStone2" Weight="1" />
+      <Item TypeId="PhysicalModelDefinition" SubtypeId="SingleLimeStone2v2" Weight="1" />
+      <Item TypeId="PhysicalModelDefinition" SubtypeId="SingleLimeStone3" Weight="1" />
+      <Item TypeId="PhysicalModelDefinition" SubtypeId="SingleLimeStone4" Weight="1" />
+      <Item TypeId="PhysicalModelDefinition" SubtypeId="SingleLimeStone4v2" Weight="1" />
+    </Items>
+  </Definition>
+
+</Definitions>

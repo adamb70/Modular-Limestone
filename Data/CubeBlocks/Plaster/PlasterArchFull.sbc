@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+    <Id Type="CubeBlock" Subtype="PlasterArchFull" />
+    <DisplayName>Plaster Wall with Arch</DisplayName>
+    <Public>true</Public>
+    <Icon>Textures\GUI\Icons\Cubes\PlasterArchFull.dds</Icon>
+    <CubeSize>Large</CubeSize>
+    <BlockTopology>TriangleMesh</BlockTopology>
+    <Size x="1" y="1" z="1" />
+    <ModelOffset x="0" y="0" z="0" />
+    <Model>Models\Cubes\Large\PlasterArchFull_Large.mwm</Model>
+    <BuildProgressModels>
+      <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\StoneArchFullWall_Construction_1.mwm">
+        <MountPointOverrides>
+          <MountPoint Side="Top" Enabled="false" />
+        </MountPointOverrides>
+      </Model>
+    </BuildProgressModels>
+    <MountPoints>
+      <MountPoint Side="Front" StartX="1.0324" StartY="-0.03239994" EndX="0.670979" EndY="1.0324" />
+      <MountPoint Side="Front" StartX="0.3310877" StartY="-0.03239994" EndX="-0.0303331614" EndY="1.0324" />
+      <MountPoint Side="Front" StartX="0.735779047" StartY="0.807509065" EndX="0.266032279" EndY="1.0324" />
+      <MountPoint Side="Left" StartX="-0.0441484451" StartY="-0.03239994" EndX="0.232400015" EndY="1.0324" />
+      <MountPoint Side="Right" StartX="1.04414845" StartY="-0.03239994" EndX="0.7676" EndY="1.0324" />
+      <MountPoint Side="Top" StartX="-0.03239999" StartY="1.04414845" EndX="0.329020947" EndY="0.76760006" />
+      <MountPoint Side="Top" StartX="0.6689123" StartY="1.04414833" EndX="1.03033316" EndY="0.76759994" />
+      <MountPoint Side="Top" StartX="0.264220923" StartY="1.04496253" EndX="0.7339677" EndY="0.7676" />
+      <MountPoint Side="Bottom" StartX="-0.03239999" StartY="-0.044148352" EndX="0.329020947" EndY="0.232400045" />
+      <MountPoint Side="Bottom" StartX="0.6689123" StartY="-0.0441484451" EndX="1.03033316" EndY="0.23239994" />
+    </MountPoints>
+    <MirroringY>Z</MirroringY>
+    <MirroringZ>Y</MirroringZ>
+    <PhysicalMaterial>Stone</PhysicalMaterial>
+    <Components>
+      <Component Tag="ScrapWood" Count="1" />
+      <Component Type="InventoryItem" Subtype="StoneSmall" Count ="3" />
+	  <Component Type="InventoryItem" Subtype="Clay" Count ="1" />
+    </Components>
+    <CriticalComponent Type="InventoryItem" Subtype="StoneSmall" Index="0" />
+    <BuildTimeSeconds>6</BuildTimeSeconds>
+    <UseModelIntersection>true</UseModelIntersection>
+    <BuildType>Wall</BuildType>
+    <BuildMaterial>Stone</BuildMaterial>
+    <Direction>Horizontal</Direction>
+    <Rotation>Vertical</Rotation>
+    <CompoundTemplates>
+      <Template>Universal</Template>
+    </CompoundTemplates>
+    <MaxIntegrity>4800</MaxIntegrity>
+    <BuildProgressToPlaceGeneratedBlocks>0.5</BuildProgressToPlaceGeneratedBlocks>
+    <BlockGroupName>PlasterArchFull</BlockGroupName>
+  </Definition>
+
+
+</Definitions>
